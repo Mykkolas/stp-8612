@@ -1,0 +1,17 @@
+body {
+    width: 320px;
+    margin-inline: auto;
+
+    @include media(desktop) {
+        width: 1200px;
+    }
+}
+main {
+    width: 100%;
+    padding-inline: 16px;
+
+    @include media(desktop) {
+        padding-inline: 80px;
+        padding-top: 32px;
+    }
+}
