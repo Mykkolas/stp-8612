@@ -1,2 +1,2 @@
-# Vanilla-vite-template
+# stp-8612
 
