@@ -15,6 +15,7 @@ html {
   margin-inline: auto;
   width: 320px;
   padding-inline: 16px;
+  text-align: center;
 
   @include media(desktop) {
     width: 1200px;
@@ -29,5 +30,15 @@ html {
   @include media(desktop) {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+}
+
+.title {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+
+  @include media(desktop) {
+    font-size: 40px;
   }
 }
