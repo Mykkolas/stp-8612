@@ -7,6 +7,10 @@ html {
   }
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   margin-inline: auto;
   width: 320px;

@@ -1,0 +1,88 @@
+.cookie-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #ffec9a;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cookie-modal-content {
+  width: 320px;
+  margin-inline: auto;
+  padding: 32px 16px;
+  display: grid;
+  gap: 32px;
+
+  @include media(desktop) {
+    width: 1200px;
+    gap: 34px 103px;
+    grid-template-columns: 689px 184px;
+    grid-template-rows: 48px 105px;
+    padding: 50px 80px;
+  }
+}
+
+.cookie-modal-title {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+
+  @include media(desktop) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 40px;
+  }
+}
+
+.cookie-modal-text {
+  font-weight: 400;
+  font-size: 16px;
+
+  @include media(desktop) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 24px;
+  }
+}
+
+.cookie-modal-btns {
+  display: grid;
+  gap: 16px;
+
+  @include media(desktop) {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    gap: 41px;
+    align-self: center;
+  }
+}
+
+.cookie-modal-btn {
+  width: 100%;
+  height: 51px;
+  border: 1px solid #a76d00;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.accept {
+  background: linear-gradient(137deg, #efc307 0%, #e69d28 100%);
+  color: #fff;
+}
+
+.decline {
+  border-color: #0a6bb7;
+  color: #0a6bb7;
+  background-color: transparent;
+}
+
+.hidden {
+  display: none;
+}
