@@ -24,11 +24,13 @@
     
     <title>Dream Match</title>
     <script type="module" crossorigin src="/stp-8612/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/stp-8612/assets/index-b24ff88e.css">
+    <link rel="stylesheet" href="/stp-8612/assets/index-3da301e8.css">
   </head>
   <body>
     <header class="header container">
-            <img src="/stp-8612/assets/logo-2x-4062f1fd.png" class="logo">
+    <div class="logo">
+            <img src="/stp-8612/assets/logo-1x-4bbf311c.png">
+    </div>
            <button  class="burgerBtn" id="burger-btn-js" type="button"><svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M27.9411 3.83317H2.05874C1.60111 3.83317 1.16223 3.64002 0.838637 3.2962C0.515044 2.95238 0.333252 2.48607 0.333252 1.99984C0.333252 1.51361 0.515044 1.04729 0.838637 0.703475C1.16223 0.359658 1.60111 0.166504 2.05874 0.166504H27.9411C28.3987 0.166504 28.8376 0.359658 29.1612 0.703475C29.4848 1.04729 29.6666 1.51361 29.6666 1.99984C29.6666 2.48607 29.4848 2.95238 29.1612 3.2962C28.8376 3.64002 28.3987 3.83317 27.9411 3.83317Z" fill="#2193EC"/>
 <path d="M27.9411 14.8332H2.05874C1.60111 14.8332 1.16223 14.64 0.838637 14.2962C0.515044 13.9524 0.333252 13.4861 0.333252 12.9998C0.333252 12.5136 0.515044 12.0473 0.838637 11.7035C1.16223 11.3597 1.60111 11.1665 2.05874 11.1665H27.9411C28.3987 11.1665 28.8376 11.3597 29.1612 11.7035C29.4848 12.0473 29.6666 12.5136 29.6666 12.9998C29.6666 13.4861 29.4848 13.9524 29.1612 14.2962C28.8376 14.64 28.3987 14.8332 27.9411 14.8332Z" fill="#2193EC"/>
@@ -36,16 +38,130 @@
 </svg></button>
 </header>
 
+<div class="modal container" id="modal">
+        
+    <div class="modal-content">
+        <button class="close-btn" id="close-btn-js">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2 2L14 14M26 26L14 14M14 14L26 2L2 26" stroke="#43ACFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+        </button>
+        <a href="">Game Overview</a>
+        <a href="">Features</a>
+        <a href="">Behind the Pixels</a>
+        <a href="">Player Achievements</a>
+        <a href="">Easter Eggs & Hidden Secrets</a>
+        <a href="">Game Lore Deep Dive</a>
+        <a href="">Developer`s Corner</a>
+    </div>
+</div>
+
 
     <main>
-      <section>Hero section</section>
-
-      <section>
-  Game Overview
-  <div class="container"></div>
+       <section class="hero-section">
+    <div class="container">
+        <div class="hero">
+          <div class="hero-title">
+            <h1>Dream Match - Match, Blast & Restore!</h1>
+          </div>  
+         <a href="https://play.google.com/store/apps/details?id=cc.bubble.match&hl=en&gl=us" target="_blank" class="google-play">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ7SURBVHgBtZdNaxNBGIDf2Z2Y0EYIudReND17CTR4EgyIFVFo0vaiPTQBezbFiwehm1+g+QWJp9pbDt5MyXoTLCR+nATJKvZS0ARq0DY7eZ1JumG75GNns3lgB2Zml+f9YAeGACdeTEXonPIEkeQIQIQv6SaybP1h2YAZQcSQ2FurASFx5yYClBiy/CwCUG4Un6aGSc+jylCiNhL7a7vgM0r4pxYPNtPj30KiLb9ebyzvr2+BX2IxBH+nYJKcZx8jCCURQHwvFQM/xG7lVgCi/DyA4jQBKPaJW/l5AKL/Na/9V5wLMnIQv57H/ivDFiXlg/7z7Gtuy6+M2pCV90ASXw0dNcyKWsQqxMCL2Iv8fvAHPL9c4wcPyZiM1joHdNeTWEZuSW3w/oPGsxcV2JIWW/LQr00Z6QCefYw/pU6FVu3ldyUWXGqtQOh4W0rqIMnL3/j3NpCTEvfkJzcvyCWkA1SCL3jmEQqSCLlg9eozyIW/gBdOzUBGKmOLR5++wbZ+AtMgnfFG4xV/SnAG0d58/sF3kCVodspSGVtSi7PPUWi/uQZSIOTJPTBcZ+yU2uUCF5nrQhq4Y+pi4ko8SupGTgANYLBD77KyfX2ieJJ0tBxb/OwuqH/YS5KGlvN96ofULu82g/Xw5td3gTbThgknimWlfVA/PZrLR1f6fRwH9UOKCEZXwexi5VB3+w2dSorYQgUKCweHGkiieJV2AQrtbnhpoSIvFVB5KerAyM4V/UMdpoC6lXrp4zhIdeNx8nrzYxVGG/t99FjSkWIxHN9OcDFJOjdFH/+yeW1J11vgM71SB5iZ7qiqxk+aW/wCx6+paDBGs4v6ewNmxH/G8DIBvGnN8QAAAABJRU5ErkJggg==" alt="Google Play">
+    <h2>Google Play</h2>
+</a>
+          <div class="dog">
+            <img src="/stp-8612/assets/dog-1x-318fae16.png" alt="">
+          </div>
+        </div>
+    </div>
 </section>
 
-      <p>Features</p>
+      <section class="section over-section">
+  <div class="container">
+    <div class="game-container">
+  <h2>Game Overview</h2>
+  <p>Step into Dream Match, where thrilling match-3 gameplay meets a magical world waiting to be restored!</p>
+  <div class="play-images-1">
+      <div><img src="/stp-8612/assets/coins-1x-b3fb0ac5.png" class="play-image" alt="img1"></div>
+      <div><img src="/stp-8612/assets/cups-1x-16f19d2e.png" class="play-image" alt="img1"></div>
+  </div>
+  <div class="play-images-1-add">
+      <div><img src="/stp-8612/assets/matches-1x-3e7279b6.png" class="play-image-unique play-image" alt="img1"></div>
+</div>
+      <div class="swap-blast">
+        <p><b>Swap & Blast -</b>
+        Solve puzzles and clear obstacles</p>
+      </div>
+       <div class="play-images-2">
+      <div><img src="/stp-8612/assets/lock-1x-484b49d1.png" class="play-image-2" alt="img1"></div>
+      <div><img src="/stp-8612/assets/girl-key-1x-bfafadae.png" class="play-image-2" alt="img1"></div>
+  </div>
+  <div class="play-images-2-add">
+      <div><img src="/stp-8612/assets/upgrade-1x-4cd13f4c.png" class="play-image-2 play-image-2-unique" alt="img1"></div>
+</div>
+<div class="power-ups">
+  <p><b>Uncover the Story -</b>
+        Help whimsical characters revive forgotten places</p>
+</div>
+<div class="play-images-3">
+      <div><img src="/stp-8612/assets/grass-1x-0ecbd3a2.png" class="play-image-3" alt="img1"></div>
+      <div><img src="/stp-8612/assets/hammer-1x-8e8f1633.png" class="play-image-3" alt="img1"></div>
+      <div><img src="/stp-8612/assets/rubik-1x-f462f662.png" class="play-image-3 " alt="img1"></div>
+     </div>
+      <div class="play-images-3-add"><img src="/stp-8612/assets/cannon-1x-cf71b370.png" class="play-image-3 " alt="img1"></div>
+     <div class="boosters">
+      <p><b>Unlock Power-ups – </b>
+        Use boosters and magic tiles to win big!</p>
+</div>
+<div class="play-images-4">
+      <div class="play-images-4-add"><img src="/stp-8612/assets/chests-lava-1x-c83e9060.png" class="play-image-4" alt="img1"></div>
+      <div class="play-images-4-add"><img src="/stp-8612/assets/level-1x-970bfa13.png" class="play-image-4" alt="img1"></div>
+      <div class="play-images-4-add"><img src="/stp-8612/assets/dragon-1x-b29e755a.png" class="play-image-4" alt="img1"></div>
+</div>
+  <div class="global-complete">
+    <p><b>Compete Globally –</b>
+         Climb the leaderboards and win rewards!</p>
+  </div>
+  <div class="ready">
+    <p>Are you ready to bring the magic back?</p>
+  </div>
+     </div>
+    </div>
+
+  </div>
+</section>
+
+      <section class="section">
+    <div class="container">
+        <div class="features">
+        <div class="features-title">
+        <h2>Features</h2>
+        </div>
+        <div class="three-puzzles">
+            <p><b> Addictive Match-3 Puzzles –</b>
+                Solve unique challenges and tricky levels</p>
+        </div>
+         <div class="stories">
+             <p><b>Heartfelt Stories –</b>
+            Restore locations and meet charming characters</p>
+        </div>
+        <div class="feat-img">
+            <img src="/stp-8612/assets/bg-feat-1x-07f5aec8.png" alt="">
+        </div>
+       <div class="ex-boosters">
+             <p><b>Explosive Boosters –</b>
+            Unlock powerful tools to blast through obstacles</p>
+       </div>
+       <div class="events">
+        <p><b>Seasonal Events –</b>
+            Special challenges and limited-time rewards!</p>
+       </div>
+        <div class="leader">
+        <p><b>Leaderboard Battles –</b>
+            Compete for top ranks!</p>
+       </div>
+        </div>
+    </div>
+</section>
 
       <section class="behind-section section" id="behind-the-pixels">
   <div class="container behind-container">
@@ -172,16 +288,16 @@
   </div>
 </section>
 
-      <p>Easter Eggs & Hidden Secrets</p>
+    <!--  <p>Easter Eggs & Hidden Secrets</p>
 
       <p>Game Lore Deep Dive</p>
 
       <p>Developer’s Corner</p>
-
+ -->
     </main>
 
-    <p>footer</p>
-
+   <!--  <p>footer</p>
+ -->
 
     <div class="cookie-modal">
   <div class="cookie-modal-content">
