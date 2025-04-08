@@ -1,14 +1,24 @@
-@import './generals.scss'; 
-@import './header.scss'; 
+@import './generals.scss';
+@import './header.scss';
+@import './hero.scss';
+@import './game-overview.scss';
+@import './features.scss';
+@import './behind-the-pixels.scss';
+@import './achievements.scss';
+@import './secrets.scss';
+@import './game-lore.scss';
+@import './corner.scss';
+@import './footer.scss';
+@import './cookie-popUp.scss';
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Poppins, Fredoka, sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.44;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: #0a6bb7;
+  background-color: #abdaff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
