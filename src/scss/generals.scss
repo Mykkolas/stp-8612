@@ -1,11 +1,21 @@
-.container {
-    margin-inline: auto;
-    width: 320px;
-    padding-inline: 16px;
+html {
+  scroll-padding-top: 68px;
+  scroll-behavior: smooth;
 
-    @include media(desktop) {
-        padding-inline: 80px;
-    }
+  @include media(desktop) {
+    scroll-padding-top: 128px;
+  }
+}
+
+.container {
+  margin-inline: auto;
+  width: 320px;
+  padding-inline: 16px;
+
+  @include media(desktop) {
+    width: 1200px;
+    padding-inline: 80px;
+  }
 }
 
 .section {
