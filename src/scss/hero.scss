@@ -1,0 +1,47 @@
+.hero-section {
+    padding-top: 32px;
+    height: 568px;
+    background-image: url('/img/hero/bg-1x.png');
+    background-position: center; 
+background-repeat: no-repeat;
+padding-bottom: 32px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+.hero-title {
+    margin-top: 55px;
+    width: 288px;
+    height: 114px;
+    h1 {
+    font-family:  "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 119%;
+
+    }
+}
+
+.google-play {
+    margin: 16px auto;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #2193ec;
+    border-radius: 16px;
+    width: 200px;
+    height: 56px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+
+    h2 {
+        font-weight: 500;
+        font-size: 18px; 
+    }
+}
+.dog {
+    margin-top: 177px;
+    margin-left: 180px;
+}

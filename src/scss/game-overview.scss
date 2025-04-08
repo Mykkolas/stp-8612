@@ -1,0 +1,128 @@
+.over-section {
+    background: linear-gradient(180deg, #abdaff 0%, #64bbff 15.38%, #64bbff 69.23%, #abdaff 88.94%);
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 144%;
+        text-align: center;
+    }
+}
+.play-image {
+    border-radius: 16px;
+width: 111px;
+height: 157px;
+box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.play-images-1 {
+    display: flex;
+}
+.play-images-1 div:nth-child(2) {
+    margin-top: 20px;
+    margin-left: 11px;
+}
+.play-image-unique {
+    margin-top: -80px;
+}
+
+.swap-blast p {
+    text-align: left;
+}
+
+.play-images-2 {
+    display: flex;
+    flex-direction: row;
+}
+.play-images-2 div:nth-child(2) {
+    margin-top: 90px;
+    margin-left: -20px;
+    z-index: 2;
+}
+
+.play-image-2 {
+    border-radius: 16px;
+width: 129px;
+height: 177px;
+box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.play-image-2-unique {
+    margin-top: -90px;
+    margin-right: 106px;
+}
+
+.play-image-3 {
+    border-radius: 16px;
+width: 103px;
+height: 103px;
+box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+} 
+
+.play-images-3 div:nth-child(1) {
+    margin-left: -10px;
+}
+.play-images-3 div:nth-child(2) {
+    margin-top: -10px;
+    margin-left: -70px;
+    z-index: 2;
+}
+.play-images-3 div:nth-child(3) {
+    margin-top: -5px;
+    margin-left: -25px;
+    z-index: 3;
+}
+.play-images-3-add {
+    margin-top: -160px;
+    margin-right: -150px;
+    z-index: 4;
+
+}
+
+.boosters p{
+    margin-top: 40px; /* !!! */
+    text-align: left;
+}
+.play-images-4 {
+     display: flex;
+     flex-direction: column;
+}
+
+.play-image-4 {
+    border-radius: 16px;
+width: 101px;
+height: 142px;
+box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.play-images-4-add:first-child {
+    margin-left: 135px;
+}
+.play-images-4-add:nth-child(2) {
+    margin-left: 65px;
+    margin-top: -65px;
+}
+.play-images-4-add:nth-child(3) {
+    margin-left: 0;
+    margin-top: -75px;
+
+}
+.global-complete p {
+    text-align: left;
+}
+.ready p {
+    font-family:  "Fredoka", sans-serif;
+font-weight: 500;
+font-size: 20px;
+text-align: center;
+}
+
+

@@ -1,19 +1,18 @@
+
 .header {
+    left: 50%; /* Moves it to the center */
+    transform: translateX(-50%); /* Corrects centering */
+    top: 1px;
+    position: fixed;
     width: 320px;
     height: 68px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 16px;
-    background-color: #CEE9FF8F;
-
-    .logo {
-        border-radius: 16px;
-        width: 44px;
-        height: 44px;
-
-    }
-
+    background-color: rgba(206, 233, 255, 0.56);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 100;
     .burgerBtn {
         width: 44px;
         height: 44px;
@@ -21,4 +20,60 @@
         border: none;
         color: #2193EC;
     }
+}
+
+.logo {
+    width: 44px;
+    height: 44px;
+}
+
+.logo img {
+    border-radius: 16px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+.no-scroll {
+    overflow: hidden;
+}
+   
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(206, 233, 255, 0.9);
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    z-index: 999;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    text-align: center;
+    position: relative;
+    width: 268px;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.modal-content a {
+    font-weight: 500;
+font-size: 20px;
+    font-family:  "Fredoka", sans-serif;
+
+}
+
+.close-btn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: -120px;
+    right: 5px;
+    
 }

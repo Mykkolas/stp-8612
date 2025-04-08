@@ -1,0 +1,68 @@
+.features {
+   background-image: url('/img/features/one-feat.png'), url('/img/features/two-feat.png'), url('/img/features/three-feat.png'), url('/img/features/four-feat.png'), url('/img/features/five-feat.png') ;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 0 90px, 200px 130px, 7px 870px, 200px 1040px, 10px 1155px ;
+ /*  height: 1223px;  */
+padding-bottom: 15px; /*!!!!! remove later */
+  b {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 144%;
+  }
+}
+
+
+.features-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.feat-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three-puzzles {
+  margin-top: 32px;
+  width: 217px;
+  min-height: 104px;
+  margin-left: 32px;
+ 
+ 
+}
+
+
+.stories {
+  margin-top: 16px;
+  margin-left: 69px;
+  width: 219px;
+  height: 78px;
+
+  p {
+    margin-bottom: 16px;
+  }
+ 
+}
+
+.ex-boosters {
+  width: 192px;
+  height: 78px;
+  margin-top: 51px;
+  margin-left: 27px;
+}
+
+.events {
+  margin-left: 69px;
+  margin-top: 36px;
+  width: 219px;
+  height: 70px;
+}
+
+.leader {
+  margin-top: 50px;
+  width: 176px;
+  height: 78px;
+  margin-left: 42px;
+}
