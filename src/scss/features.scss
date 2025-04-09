@@ -3,11 +3,15 @@
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: 0 90px, 200px 130px, 7px 755px, 205px 920px, 8px 1038px ;
   padding-bottom: 32px;
+  position: relative;
   b {
     font-weight: 600;
     font-size: 16px;
     line-height: 144%;
   }
+      @include media(desktop) {
+        height: 719px;
+      }
 }
 
 
@@ -74,3 +78,111 @@
   margin-left: 42px;
   text-align: left;
 }
+
+    @include media(desktop) {
+
+      .features {
+  background-position: 13px 140px, 240px 415px, 940px 190px, 750px 440px, 580px 590px ;
+  padding-bottom: 0;
+
+      }
+
+
+
+
+
+
+
+    .leader {
+      width: 336px;
+      height: 144px;
+       display: block;
+      position: absolute;
+      top: 580px;
+      left: 355px;
+      margin: 0;
+      padding: 0;
+      b {
+        font-size: 24px;
+      }
+      p {
+        font-size: 24px;
+        font-weight: 400;
+line-height: 144%;
+      }
+    }
+    .events {
+     width: 336px;
+      height: 144px;
+       display: block;
+      position: absolute;
+      top: 400px;
+      left: 705px;
+      margin: 0;
+      padding: 0;
+      b {
+        font-size: 24px;
+      }
+      p {
+        font-size: 24px;
+        font-weight: 400;
+line-height: 144%;
+      }
+    }
+    .ex-boosters {
+      width: 336px;
+      height: 144px;
+       display: block;
+      position: absolute;
+      top: 170px;
+      left: 705px;
+      margin: 0;
+      padding: 0;
+      b {
+        font-size: 24px;
+      }
+      p {
+        font-size: 24px;
+        font-weight: 400;
+line-height: 144%;
+      }
+    
+    } 
+    .stories {
+      width: 336px;
+      height: 144px;
+      display: block;
+      position: absolute;
+      top: 440px;
+      margin: 0;
+      padding: 0;
+       b {
+        font-size: 24px;
+      }
+      p {
+        font-size: 24px;
+        font-weight: 400;
+line-height: 144%;
+      }
+    }
+    .three-puzzles {
+      width: 336px;
+      height: 144px;
+      display: block;
+      position: absolute;
+      top: 170px;
+      margin: 0;
+      padding: 0;
+       b {
+        font-size: 24px;
+      }
+      p {
+        font-size: 24px;
+        font-weight: 400;
+line-height: 144%;
+      }
+    } 
+    .feat-img {
+      margin-top: 39px;
+    }
+    }
