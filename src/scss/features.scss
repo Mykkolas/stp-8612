@@ -1,9 +1,8 @@
 .features {
    background-image: url('/img/features/one-feat.png'), url('/img/features/two-feat.png'), url('/img/features/three-feat.png'), url('/img/features/four-feat.png'), url('/img/features/five-feat.png') ;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: 0 90px, 200px 130px, 7px 870px, 200px 1040px, 10px 1155px ;
- /*  height: 1223px;  */
-padding-bottom: 15px; /*!!!!! remove later */
+  background-position: 0 90px, 200px 130px, 7px 755px, 205px 920px, 8px 1038px ;
+  padding-bottom: 32px;
   b {
     font-weight: 600;
     font-size: 16px;
@@ -29,8 +28,7 @@ padding-bottom: 15px; /*!!!!! remove later */
   width: 217px;
   min-height: 104px;
   margin-left: 32px;
- 
- 
+  text-align: left;
 }
 
 
@@ -39,6 +37,8 @@ padding-bottom: 15px; /*!!!!! remove later */
   margin-left: 69px;
   width: 219px;
   height: 78px;
+  text-align: left;
+
 
   p {
     margin-bottom: 16px;
@@ -47,22 +47,30 @@ padding-bottom: 15px; /*!!!!! remove later */
 }
 
 .ex-boosters {
+  padding-top: 16px;
   width: 192px;
   height: 78px;
   margin-top: 51px;
   margin-left: 27px;
+  text-align: left;
+
 }
 
 .events {
+  padding-top: 16px;
   margin-left: 69px;
   margin-top: 36px;
   width: 219px;
   height: 70px;
+  text-align: left;
+
 }
 
 .leader {
+  padding-top: 16px;
   margin-top: 50px;
   width: 176px;
   height: 78px;
   margin-left: 42px;
+  text-align: left;
 }
