@@ -1,0 +1,65 @@
+.game-lore-title {
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    margin-bottom: 24px;
+  }
+}
+
+.game-lore-text {
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+}
+
+.game-lore-img-container {
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    margin-bottom: 50px;
+  }
+}
+
+.game-lore-img-wrapper:not(:last-child) {
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    margin-bottom: 32px;
+  }
+}
+
+.game-lore-img-wrapper {
+  @include media(desktop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.game-lore-img {
+  width: 235px;
+  height: 172px;
+  margin-inline: auto;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    width: 600px;
+    height: 438px;
+    margin: 0;
+  }
+}
+
+.game-lore-descr {
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.lore-reverse {
+  @include media(desktop) {
+    flex-direction: row-reverse;
+  }
+}
