@@ -94,19 +94,22 @@
   text-decoration: underline;
   word-break: break-word;
   overflow-wrap: anywhere;
-  // font-weight: 500;
   transition: text-decoration 0.3s ease-in-out, font-weight 0.3s ease-in-out;
 }
 
-// .policy-link:hover {
-//   text-decoration: none;
-//   font-weight: 600;
-// }
+.policy-link:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
 
-// .policy-link:visited {
-//   text-decoration: none;
-//   color: rgb(112, 179, 217);
-// }
+.policy-link:visited {
+  text-decoration: none;
+  color: rgb(136, 176, 199);
+}
+
+.policy-link-app {
+  font-weight: 600;
+}
 
 .break-mobile {
   @include media(desktop) {
