@@ -1,0 +1,121 @@
+.policy-section {
+  padding-top: 112px;
+
+  @include media(desktop) {
+    padding-top: 150px;
+  }
+}
+
+.policy-container {
+  display: grid;
+  gap: 16px;
+  text-align: start;
+  font-size: 12px;
+
+  @include media(to-desktop) {
+    width: 319px;
+  }
+
+  @include media(desktop) {
+    gap: 48px;
+    font-size: 18px;
+  }
+}
+
+.policy-title {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.19;
+
+  @include media(desktop) {
+    font-size: 48px;
+  }
+}
+
+.policy-subtitle {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+  line-height: normal;
+
+  @include media(desktop) {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+}
+
+.secondary-subtitle {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+.policy-list {
+  text-decoration-skip-ink: none;
+  list-style-type: disc;
+  padding-left: 17.5px;
+
+  @include media(desktop) {
+    padding-left: 24px;
+  }
+}
+
+.policy-list-item::marker {
+  font-size: 9.5px;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+
+.policy-bold {
+  font-weight: 600;
+}
+
+.policy-bold + .policy-text {
+  margin-left: -17.5px;
+}
+
+.policy-text.medium,
+.policy-link.medium {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.policy-link {
+  text-decoration: underline;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  // font-weight: 500;
+  transition: text-decoration 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+}
+
+// .policy-link:hover {
+//   text-decoration: none;
+//   font-weight: 600;
+// }
+
+// .policy-link:visited {
+//   text-decoration: none;
+//   color: rgb(112, 179, 217);
+// }
+
+.break-mobile {
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.break-desktop {
+  @include media(to-desktop) {
+    display: none;
+  }
+}

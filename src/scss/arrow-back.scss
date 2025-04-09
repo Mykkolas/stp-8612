@@ -4,6 +4,7 @@
   width: 100%;
   z-index: 3;
   padding-top: 40px;
+  backdrop-filter: blur(3px);
 
   @include media(desktop) {
     padding-top: 50px;
@@ -23,6 +24,7 @@
   font-size: 18px;
 
   cursor: pointer;
+  transition: background 0.3s ease-in-out;
 
   @include media(to-desktop) {
     margin-inline: auto;

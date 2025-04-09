@@ -21,7 +21,7 @@
   }
 }
 
-.logo-link {
+.footer-logo {
   display: block;
   width: 44px;
   height: 44px;
@@ -67,6 +67,16 @@
 
 .footer-item {
   height: 24px;
+}
+
+.footer-link {
+  transition: color 0.3s ease-in-out;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .footer-link:hover {
+    color: #fff;
+  }
 }
 
 .footer-text {
