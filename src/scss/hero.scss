@@ -1,21 +1,29 @@
 .hero-section {
     padding-top: 32px;
     height: 568px;
-    background: image-set(
-        url('/img/hero/bg-1x.png') 1x,
-        url('/img/hero/bg-2x.png') 2x,
-    ) ;
-    background-position: center; 
-background-repeat: no-repeat;
+    background:
+    image-set(
+        url('/img/hero/bg-desk-1x.png') 1x,
+        url('/img/hero/bg-desk-2x.png') 2x,
+    ),
+    ;
+    background-repeat:  no-repeat;
+    background-size:  auto;
+    background-position:  center;
 padding-bottom: 32px;
 
   @include media(desktop) {
     height: 668px;
+      background-size: cover;
+ 
   }
 }
+
+
 .hero {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .hero-title {
     margin-top: 55px;
@@ -27,7 +35,13 @@ padding-bottom: 32px;
     font-weight: 600;
     font-size: 32px;
     line-height: 119%;
-
+  @include media(desktop) {
+    margin-top: 60px;
+    margin-left: 440px;
+    width: 592px;
+    height: 114px;
+    font-size: 48px;
+}
     }
 }
 
@@ -48,8 +62,38 @@ padding-bottom: 32px;
         font-weight: 500;
         font-size: 18px; 
     }
+      @include media(desktop) {
+        margin-top: 130px;
+        margin-left: 440px;
+        
+    }
 }
 .dog {
-    margin-top: 177px;
-    margin-left: 180px;
+    position: absolute;
+     width: 96px;
+    height: 108px;
+    top: 435px;
+    left: 170px;
+  @include media(desktop) {
+   img {
+   /*   width: 230px;
+    height: 258px; */
+    display: none;
+   }
+}
+} 
+
+.woman {
+    position: absolute;
+    width: 185px;
+    height: 284px;
+    top: 252px;
+    left: -10px;
+    @include media(desktop) {
+   img {
+    /*  width: 352px;
+    height: 540px; */
+    display: none;
+   }
+}
 }

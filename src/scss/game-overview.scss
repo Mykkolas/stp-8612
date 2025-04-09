@@ -13,6 +13,10 @@
         font-size: 16px;
         line-height: 144%;
         text-align: center;
+        @include media(desktop) {
+            font-size: 24px;
+            max-width: 688px;
+        }
     }
 }
 .play-image {
@@ -20,22 +24,38 @@
 width: 111px;
 height: 157px;
 box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
-
+@include media(desktop) {
+    width: 286px;
+height: 404px;
 }
-
+}
 .play-images-1 {
     display: flex;
+    @include media(desktop) { 
+        margin-left: -440px;
+    }
 }
 .play-images-1 div:nth-child(2) {
     margin-top: 20px;
     margin-left: 11px;
+     @include media(desktop) { 
+        margin-left: 30px;
+    }
 }
 .play-image-unique {
     margin-top: -80px;
+    @include media(desktop) {
+        margin-top: -145px;
+        margin-right: 450px;
+    }
 }
 
 .swap-blast p {
     text-align: left;
+    @include media(desktop) {
+       margin-top: -600px;
+       margin-left: 630px;
+    }
 }
 
 .play-images-2 {
@@ -53,7 +73,10 @@ box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 width: 129px;
 height: 177px;
 box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
-
+@include media(desktop) {
+    width: 286px;
+height: 404px;
+}
 }
 
 .play-image-2-unique {
@@ -66,7 +89,12 @@ box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 width: 103px;
 height: 103px;
 box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+@include media(desktop) {
+    width: 286px;
+height: 286px;
+}
 } 
+
 
 .play-images-3 div:nth-child(1) {
     margin-left: -10px;
@@ -102,6 +130,10 @@ box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 width: 101px;
 height: 142px;
 box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+@include media(desktop) {
+    width: 286px;
+height: 404px;
+}
 }
 .play-images-4-add:first-child {
     margin-left: 135px;
@@ -123,6 +155,10 @@ box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 font-weight: 500;
 font-size: 20px;
 text-align: center;
+@include media(desktop) {
+    font-size: 40px;
+    min-width: 952px;
+}
 }
 
 
