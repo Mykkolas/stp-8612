@@ -19,12 +19,26 @@
         background-color: transparent;
         border: none;
         color: #2193EC;
+      @include media(desktop) {
+        display: none;
+      }
     }
+      @include media(desktop) {
+    width: 1040px;
+    height: 96px;
+    margin-top: 32px;
+    justify-content: flex-start;
+    padding: 12px 20px;
+      }
 }
 
 .logo {
     width: 44px;
     height: 44px;
+      @include media(desktop) {
+        width: 72px;
+        height: 72px;
+        }
 }
 
 .logo img {
@@ -34,7 +48,37 @@
 .no-scroll {
     overflow: hidden;
 }
+
+.link-container {
+     display: none;
+    @include media(desktop) {
+        display: block ;
+  width: 868px;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px 100px;
+    margin-left: 56px;
+    }
+  
+
+       
+
+    a {
+        font-weight: 500;
+font-size: 18px;
+color:  #2193ec;
+    }
+}
    
+
+
+
+
+
+
+
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed;

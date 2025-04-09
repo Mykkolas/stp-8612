@@ -8,6 +8,10 @@
     background-position: center; 
 background-repeat: no-repeat;
 padding-bottom: 32px;
+
+  @include media(desktop) {
+    height: 668px;
+  }
 }
 .hero {
     display: flex;
