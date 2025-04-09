@@ -32,23 +32,10 @@
   height: 353px;
   margin-inline: auto;
   margin-bottom: 16px;
-  border-radius: 16px;
-  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 
   @include media(desktop) {
     width: 439px;
     height: 659px;
-  }
-}
-
-.behind-text {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  text-align: center;
-
-  @include media(desktop) {
-    font-size: 32px;
   }
 }
 
@@ -63,42 +50,8 @@
   }
 }
 
-.behind-question {
-  margin-bottom: 32px;
-
-  @include media(desktop) {
-    text-align: left;
-  }
-}
-
-.behind-item:not(:last-child) {
-  margin-bottom: 24px;
-}
-
-.behind-item {
-  display: flex;
-  align-items: start;
-  gap: 12px;
-}
-
-.small-icon {
-  flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-}
-
-.behind-item-text {
-  text-align: left;
-  font-weight: 400;
-  line-height: 1.44022;
-
-  @include media(desktop) {
-    font-size: 24px;
-  }
-}
-
 @include media(desktop) {
-  .behind-container > .behind-text {
+  .behind-container > .text {
     grid-row: 3/3;
     grid-column: 1/3;
   }

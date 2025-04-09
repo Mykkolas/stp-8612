@@ -42,3 +42,54 @@ html {
     font-size: 40px;
   }
 }
+
+.subtitle {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  @include media(desktop) {
+    font-size: 32px;
+  }
+}
+
+// image shadows and border-radius
+.image-frame {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+// list styles for behind-the-pixels and secrets sections
+.list-question {
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    text-align: left;
+  }
+}
+
+.item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.item {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+}
+
+.small-icon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.item-text {
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.44022;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}

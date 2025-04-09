@@ -32,11 +32,6 @@
   position: relative;
 }
 
-.achievements-img {
-  border-radius: 16px;
-  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
 .achievements-img-hover {
   position: absolute;
   bottom: 0;
@@ -61,15 +56,5 @@
 
   @include media(desktop) {
     font-size: 20px;
-  }
-}
-
-.achievements-slogan-b {
-  font-weight: 500;
-  font-size: 20px;
-
-  @include media(desktop) {
-    font-family: 'Fredoka', sans-serif;
-    font-size: 32px;
   }
 }
