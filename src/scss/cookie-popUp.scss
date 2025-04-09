@@ -81,6 +81,11 @@
   display: none;
 }
 
+.accept,
+.decline {
+  transition: background 0.3s ease-in-out;
+}
+
 .accept:hover {
   background: linear-gradient(137deg, #d9b000 0%, #c45c00 100%);
 }
