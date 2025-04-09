@@ -78,10 +78,13 @@ html {
   gap: 12px;
 }
 
-.small-icon {
+.small-icon-box {
   flex-shrink: 0;
   width: 32px;
   height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .item-text {
