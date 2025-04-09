@@ -1,0 +1,38 @@
+.minimal-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  padding-top: 40px;
+
+  @include media(desktop) {
+    padding-top: 50px;
+  }
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 254px;
+  height: 56px;
+
+  border: 1px solid #a76d00;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 18px;
+
+  cursor: pointer;
+
+  @include media(to-desktop) {
+    margin-inline: auto;
+  }
+}
+
+.icon-go-home {
+  margin-right: 24px;
+}
+
+.back-link:hover {
+  background: linear-gradient(137deg, #d9b000 0%, #c45c00 100%);
+}

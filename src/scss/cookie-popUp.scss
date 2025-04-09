@@ -63,18 +63,12 @@
   width: 100%;
   height: 51px;
   border: 1px solid #a76d00;
-  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   border-radius: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
   font-weight: 500;
-}
-
-.accept {
-  background: linear-gradient(137deg, #efc307 0%, #e69d28 100%);
-  color: #fff;
 }
 
 .decline {
@@ -85,4 +79,12 @@
 
 .hidden {
   display: none;
+}
+
+.accept:hover {
+  background: linear-gradient(137deg, #d9b000 0%, #c45c00 100%);
+}
+
+.decline:hover {
+  background: linear-gradient(137deg, #cee9ff 0%, #bacff4 100%);
 }
