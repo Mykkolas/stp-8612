@@ -88,7 +88,7 @@
   text-decoration: underline;
   word-break: break-word;
   overflow-wrap: anywhere;
-  transition: text-decoration 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+  transition: text-decoration 0.3s ease, font-weight 0.3s ease;
 }
 
 .policy-link:hover {
