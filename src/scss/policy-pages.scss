@@ -84,17 +84,11 @@
   margin-left: -17.5px;
 }
 
-.policy-text.medium,
-.policy-link.medium {
-  font-weight: 400;
-  font-size: 18px;
-}
-
 .policy-link {
   text-decoration: underline;
   word-break: break-word;
   overflow-wrap: anywhere;
-  transition: text-decoration 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+  transition: text-decoration 0.3s ease, font-weight 0.3s ease;
 }
 
 .policy-link:hover {
