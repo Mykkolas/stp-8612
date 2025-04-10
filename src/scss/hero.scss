@@ -57,6 +57,10 @@ padding-bottom: 32px;
     height: 56px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
     background: #fff;
+    transition: background 0.3s ease;
+    &:hover {
+      background: #cee9ff;
+    }
 
     h2 {
         font-weight: 500;

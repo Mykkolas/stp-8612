@@ -14,13 +14,24 @@
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 100;
         backdrop-filter: blur(5px);
+       a {
+        font-weight: 500;
+font-size: 18px;
+color:  #2193ec;
+  transition: color 0.3s ease;
 
+
+&:hover {
+    color: #fff;
+}
+       }
     .burgerBtn {
         width: 44px;
         height: 44px;
         background-color: transparent;
         border: none;
         color: #2193EC;
+    transition: fill 0.3s ease;
       @include media(desktop) {
         display: none;
       }
@@ -62,21 +73,18 @@
     gap: 18px 100px;
     margin-left: 56px;
     }
-  
 
-       
-
-    a {
-        font-weight: 500;
-font-size: 18px;
-color:  #2193ec;
     }
-}
    
 
 
 
-
+ .icon-burger {
+    transition: fill 0.3s ease;
+    }
+    .icon-burger:hover {
+fill: #fff;
+    }
 
 
 
@@ -93,6 +101,17 @@ color:  #2193ec;
     align-items: center;
     backdrop-filter: blur(8px);
     z-index: 999;
+     a {
+        font-weight: 500;
+font-size: 18px;
+color:  #2193ec;
+  transition: color 0.3s ease;
+
+
+&:hover {
+    color: #fff;
+}
+       }
 }
 
 .modal.show {
@@ -121,5 +140,9 @@ font-size: 20px;
     position: absolute;
     top: -120px;
     right: 5px;
+    transition: color 0.3s ease;
+
+   
+    
     
 }
