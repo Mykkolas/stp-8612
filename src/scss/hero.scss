@@ -1,15 +1,16 @@
 .hero-section {
     padding-top: 32px;
     height: 568px;
-    background:
+    background-image:
     image-set(
         url('/img/hero/bg-desk-1x.png') 1x,
         url('/img/hero/bg-desk-2x.png') 2x,
     ),
+      
     ;
     background-repeat:  no-repeat;
-    background-size:  auto;
-    background-position:  center;
+    background-position: center;
+    background-size: auto;
 padding-bottom: 32px;
 
   @include media(desktop) {
@@ -72,32 +73,48 @@ padding-bottom: 32px;
         
     }
 }
-.dog {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .dog {
     position: absolute;
      width: 96px;
     height: 108px;
     top: 435px;
     left: 170px;
   @include media(desktop) {
-   img {
-   /*   width: 230px;
-    height: 258px; */
-    display: none;
+   & {
+     top: 393px;
+    left:320px;
+      width: 230px;
+    height: 258px; 
    }
 }
-} 
+}  
 
-.woman {
+ .woman {
     position: absolute;
     width: 185px;
     height: 284px;
-    top: 252px;
-    left: -10px;
+    top: 253px;
+    left:0px;
     @include media(desktop) {
-   img {
-    /*  width: 352px;
-    height: 540px; */
-    display: none;
+    & {
+       top: 98px;
+    left:-10px;
+      width: 352px;
+    height: 540px;
    }
 }
-}
+} 

@@ -1,7 +1,7 @@
 html {
   scroll-padding-top: 68px;
   scroll-behavior: smooth;
-
+  overflow-x: hidden;
   @include media(desktop) {
     scroll-padding-top: 128px;
   }

@@ -1,5 +1,10 @@
 .features {
-   background-image: url('/img/features/one-feat.png'), url('/img/features/two-feat.png'), url('/img/features/three-feat.png'), url('/img/features/four-feat.png'), url('/img/features/five-feat.png') ;
+   background-image:
+   image-set(url('/img/features/one-feat.png')1x, url('/img/features/one-feat-2x.png') 2x),
+   image-set(url('/img/features/two-feat.png')1x, url('/img/features/two-feat-2x.png') 2x),
+   image-set(url('/img/features/three-feat.png')1x, url('/img/features/three-feat-2x.png') 2x),
+   image-set(url('/img/features/four-feat.png')1x, url('/img/features/four-feat-2x.png') 2x),
+   image-set(url('/img/features/five-feat.png')1x, url('/img/features/five-feat-2x.png') 2x);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: 0 90px, 200px 130px, 7px 755px, 205px 920px, 8px 1038px ;
   padding-bottom: 32px;
