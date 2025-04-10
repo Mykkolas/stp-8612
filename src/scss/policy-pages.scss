@@ -1,6 +1,5 @@
 .policy-section {
   padding-top: 112px;
-
   @include media(desktop) {
     padding-top: 150px;
   }
@@ -98,7 +97,7 @@
 
 .policy-link:visited {
   text-decoration: none;
-  color: rgb(136, 176, 199);
+    color: #43acff; /* Changed beacuse of designer preferences */
 }
 
 .policy-link-app {
