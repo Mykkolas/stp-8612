@@ -87,7 +87,7 @@
   text-decoration: underline;
   word-break: break-word;
   overflow-wrap: anywhere;
-  transition: text-decoration 0.3s ease, font-weight 0.3s ease;
+  transition: text-decoration 0.3s ease, font-weight 0.3s ease, color 0.3s ease;
 }
 
 .policy-link:hover {
@@ -95,9 +95,8 @@
   font-weight: 600;
 }
 
-.policy-link:visited {
-  text-decoration: none;
-    color: #43acff; /* Changed beacuse of designer preferences */
+.policy-link.visited-fake {
+  color: #43acff;
 }
 
 .policy-link-app {

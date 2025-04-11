@@ -102,3 +102,8 @@ html {
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   background: linear-gradient(137deg, #efc307 0%, #e69d28 100%);
 }
+
+.header .logo:hover,
+.footer-logo:hover {
+  scale: 1.1;
+}
