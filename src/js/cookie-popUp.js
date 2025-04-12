@@ -1,27 +1,27 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const cookiesModal = document.querySelector('.cookie-modal');
-  const acceptBtn = document.querySelector('.accept');
-  const declineBtn = document.querySelector('.decline');
+const cookiesModal = document.querySelector('.cookie-modal');
+const acceptBtn = document.querySelector('.accept');
+const declineBtn = document.querySelector('.decline');
 
-  const cookiesModalClose = () => {
-    cookiesModal.style.display = 'none';
-    document.body.classList.remove('no-scroll');
-  };
+const cookiesPreference = localStorage.getItem('cookiesAccepted');
 
-  const cookiesPreference = localStorage.getItem('cookiesAccepted');
-  if (cookiesPreference !== null) {
-    cookiesModalClose();
-  } else {
-    document.body.classList.add('no-scroll');
-  }
+const cookiesModalClose = () => {
+  cookiesModal.classList.remove('show');
+  document.documentElement.classList.remove('no-scroll');
+};
 
-  acceptBtn.addEventListener('click', () => {
-    localStorage.setItem('cookiesAccepted', 'true');
-    cookiesModalClose();
-  });
+if (cookiesPreference === null) {
+  cookiesModal.classList.add('show');
+  document.documentElement.classList.add('no-scroll');
+}
 
-  declineBtn.addEventListener('click', () => {
-    localStorage.setItem('cookiesAccepted', 'false');
-    cookiesModalClose();
-  });
+acceptBtn.addEventListener('click', () => {
+  localStorage.setItem('cookiesAccepted', 'true');
+  cookiesModalClose();
+  console.log('cookies accepted');
+});
+
+declineBtn.addEventListener('click', () => {
+  localStorage.setItem('cookiesAccepted', 'false');
+  cookiesModalClose();
+  console.log('cookies declined');
 });
