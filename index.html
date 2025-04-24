@@ -30,7 +30,11 @@
   <body>
     <header class="header container">
   <a href="./index.html" class="logo">
-    <img src="/stp-8612/assets/logo-d50d77ea.png" srcset="/stp-8612/assets/logo-d50d77ea.png 1x, /stp-8612/assets/logo@2x-bfa8f5d5.png 2x" />
+    <img
+      src="/stp-8612/assets/logo-d50d77ea.png"
+      srcset="/stp-8612/assets/logo-d50d77ea.png 1x, /stp-8612/assets/logo@2x-bfa8f5d5.png 2x"
+      alt="logo image"
+    />
   </a>
   <div class="link-container">
     <a href="#game-overview">Game Overview</a>
@@ -42,16 +46,11 @@
     <a href="#corner">Developer`s Corner</a>
   </div>
   <button class="burgerBtn" id="burger-btn-js" type="button">
-    <svg class="icon-burger" fill="currentColor"  width="30" height="26">
+    <svg class="icon-burger" fill="currentColor" width="30" height="26">
       <use href="/stp-8612/assets/sprite-62671a11.svg#icon-burger-btn"></use>
     </svg>
   </button>
 </header>
-
-
-
-
-
 
 <div class="modal container" id="modal">
   <div class="modal-content">
@@ -73,88 +72,187 @@
 
     <main>
       <section class="hero-section">
-    <div class="container">
-        <div class="hero">
-          <div class="hero-title">
-            <h1>Dream Match - Match, Blast & Restore!</h1>
-          </div>  
-         <a href="https://play.google.com/store/apps/details?id=cc.bubble.match&hl=en&gl=us" target="_blank" class="google-play">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ7SURBVHgBtZdNaxNBGIDf2Z2Y0EYIudReND17CTR4EgyIFVFo0vaiPTQBezbFiwehm1+g+QWJp9pbDt5MyXoTLCR+nATJKvZS0ARq0DY7eZ1JumG75GNns3lgB2Zml+f9YAeGACdeTEXonPIEkeQIQIQv6SaybP1h2YAZQcSQ2FurASFx5yYClBiy/CwCUG4Un6aGSc+jylCiNhL7a7vgM0r4pxYPNtPj30KiLb9ebyzvr2+BX2IxBH+nYJKcZx8jCCURQHwvFQM/xG7lVgCi/DyA4jQBKPaJW/l5AKL/Na/9V5wLMnIQv57H/ivDFiXlg/7z7Gtuy6+M2pCV90ASXw0dNcyKWsQqxMCL2Iv8fvAHPL9c4wcPyZiM1joHdNeTWEZuSW3w/oPGsxcV2JIWW/LQr00Z6QCefYw/pU6FVu3ldyUWXGqtQOh4W0rqIMnL3/j3NpCTEvfkJzcvyCWkA1SCL3jmEQqSCLlg9eozyIW/gBdOzUBGKmOLR5++wbZ+AtMgnfFG4xV/SnAG0d58/sF3kCVodspSGVtSi7PPUWi/uQZSIOTJPTBcZ+yU2uUCF5nrQhq4Y+pi4ko8SupGTgANYLBD77KyfX2ieJJ0tBxb/OwuqH/YS5KGlvN96ofULu82g/Xw5td3gTbThgknimWlfVA/PZrLR1f6fRwH9UOKCEZXwexi5VB3+w2dSorYQgUKCweHGkiieJV2AQrtbnhpoSIvFVB5KerAyM4V/UMdpoC6lXrp4zhIdeNx8nrzYxVGG/t99FjSkWIxHN9OcDFJOjdFH/+yeW1J11vgM71SB5iZ7qiqxk+aW/wCx6+paDBGs4v6ewNmxH/G8DIBvGnN8QAAAABJRU5ErkJggg==" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ7SURBVHgBtZdNaxNBGIDf2Z2Y0EYIudReND17CTR4EgyIFVFo0vaiPTQBezbFiwehm1+g+QWJp9pbDt5MyXoTLCR+nATJKvZS0ARq0DY7eZ1JumG75GNns3lgB2Zml+f9YAeGACdeTEXonPIEkeQIQIQv6SaybP1h2YAZQcSQ2FurASFx5yYClBiy/CwCUG4Un6aGSc+jylCiNhL7a7vgM0r4pxYPNtPj30KiLb9ebyzvr2+BX2IxBH+nYJKcZx8jCCURQHwvFQM/xG7lVgCi/DyA4jQBKPaJW/l5AKL/Na/9V5wLMnIQv57H/ivDFiXlg/7z7Gtuy6+M2pCV90ASXw0dNcyKWsQqxMCL2Iv8fvAHPL9c4wcPyZiM1joHdNeTWEZuSW3w/oPGsxcV2JIWW/LQr00Z6QCefYw/pU6FVu3ldyUWXGqtQOh4W0rqIMnL3/j3NpCTEvfkJzcvyCWkA1SCL3jmEQqSCLlg9eozyIW/gBdOzUBGKmOLR5++wbZ+AtMgnfFG4xV/SnAG0d58/sF3kCVodspSGVtSi7PPUWi/uQZSIOTJPTBcZ+yU2uUCF5nrQhq4Y+pi4ko8SupGTgANYLBD77KyfX2ieJJ0tBxb/OwuqH/YS5KGlvN96ofULu82g/Xw5td3gTbThgknimWlfVA/PZrLR1f6fRwH9UOKCEZXwexi5VB3+w2dSorYQgUKCweHGkiieJV2AQrtbnhpoSIvFVB5KerAyM4V/UMdpoC6lXrp4zhIdeNx8nrzYxVGG/t99FjSkWIxHN9OcDFJOjdFH/+yeW1J11vgM71SB5iZ7qiqxk+aW/wCx6+paDBGs4v6ewNmxH/G8DIBvGnN8QAAAABJRU5ErkJggg== 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAABACAYAAACkwA+xAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATGSURBVHgB1ZtPbNtUHMd/z05a6B+WFWlVEUOpRCWOGdMkDkhbq/aAEKJlTGjiQHbgwAWaIydSTZM4tgdOSDRF2sYkpmU3/qyLkQAhVrSe4MAhGULAJrZ1S5etqe2393PzsvRP/Pe9F+cjRYntOMpHX3/9HMcmsIPM4nQq0ad9BJQco2ySAKTY8xpbVCTUWlo5WTSgSyGtE5mzJzK6bl9iM9PtVmDiBYtac6snixXoMpqyDdESJulnxW6U1viLRqK+RBH23qxO9NLhC8ffgy7BSfbl829lNUIWISQs5Qr7pPxv71xcghjjJNtbnYqUDnacUCgc/ur4Yub8dBpiipPs+Jn1u/WhYmpj/yUQA503qb0Qtz47yWJXe+9MQ+/dGRADmY1jn51kJ86sUz5jY6gI4hLe6jPRyezKia8vQ4fZJYuIFkbiMFTtKYvIEN6ic33W2i0Q2+FWOtfntsly5CXc6DO1Tqk63ta83iAv4a3xGTBlReOzZ7IcmQk/+TY0b9r2kqw+eybLwYSfuvU+SIWSvMw++06WUx/8ER4d+BxkI6PPvpPl9FRflZ8wyOlzYFlElTCCPyUP6hvlG98/8wkttT+p4IdQsogq4RGtBp/t+wmeI7W8Zekl84oeus+hZRHZwlx0RK850xRImj0KTLhc/y6ZgYBEkkVkCY/p97aJtoLSRKPXmfRikE07siwiWthNtBUmnTWtRHlzOYF99jylJEQWESXMRQe1Tf8rUcA+X/fqszBZJKpwKNEGfvosVBZB4f6/TwOx+wKtF0W0Fbc+C5dF9I0XoO+fj30LixJtpdFnJp1sbtpSZBG/wjJEW2B/3dACF5Ymi3gJSxZtwoTncW8tVRZpJ6xKtEGqbiZmpcsiO4UVizpoBI4qkUW48OvJ2/DlfkOpaIOMMllk4sYf8OHF/4E+0qETKJM9+t+38MHvn4J182monhvrhPCqElkuyumEsE3hB+myO0U5KHz/i5fAvtcDsiFAKz2mWZAq206Ug6LVs2MqhPPkNahIk/US5cgVpmuUklxi0nL+JJci61eUI0eYFhOb1qGeqc15Pke4bFBRjkBhgx0fjicnrRncdFsXJEAgb5eX2KMAYeHCg+/+Cdq+OgSDrrEzkbN8k90LYclGFeUET5iusSTnElVr1E0UESIrSpTjX3irl8kpM09mnKvwXIksK1qU4yHctpduRJKVJcrZLYy9pNnkpDnO0jQgIKFlZYtyUHT93Iu+e+lGqL2xKtEGhfu3h3LPTpmenfQisKw6UWpYBOZGrqwYIIhAsipEKcXrIEluePlaEQTju7PSRSk7jiV0rmb3Hxpe/lW4KOIrWQWJFh7YA7nRq0bkXrrhKStXVHwv3XCVlSWKvbQ1ekqVJKdtZ6WItvRStSiyZ7IyRG2AhYf2QF52L93YJSteVG0v3dgmK1K0U710g8tWmGhaiCj2UoOF4eWVPMQM58Tt6YN902/8dSENEcFe1uyBmeev/vwNxBDncr5bE0ey7FXoW12wl2CR3AHj2irEmOYdWzcnjpQJCXYFWRx76UZzB2Xb+rimWSVfwjHupRvbbjz899graS9hZ7y0+vOjRufGy7CQvWZihwmhb7LNNM1+bqUaSV62zURhxPilAl3KY202y0w46bkmAAAAAElFTkSuQmCC 2x" alt="Google Play">
+  <div class="container">
+    <div class="hero">
+      <div class="hero-title">
+        <h1>Dream Match - Match, Blast & Restore!</h1>
+      </div>
+      <a
+        href="https://play.google.com/store/apps/details?id=cc.bubble.match&hl=en&gl=us"
+        target="_blank"
+        class="google-play"
+      >
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ7SURBVHgBtZdNaxNBGIDf2Z2Y0EYIudReND17CTR4EgyIFVFo0vaiPTQBezbFiwehm1+g+QWJp9pbDt5MyXoTLCR+nATJKvZS0ARq0DY7eZ1JumG75GNns3lgB2Zml+f9YAeGACdeTEXonPIEkeQIQIQv6SaybP1h2YAZQcSQ2FurASFx5yYClBiy/CwCUG4Un6aGSc+jylCiNhL7a7vgM0r4pxYPNtPj30KiLb9ebyzvr2+BX2IxBH+nYJKcZx8jCCURQHwvFQM/xG7lVgCi/DyA4jQBKPaJW/l5AKL/Na/9V5wLMnIQv57H/ivDFiXlg/7z7Gtuy6+M2pCV90ASXw0dNcyKWsQqxMCL2Iv8fvAHPL9c4wcPyZiM1joHdNeTWEZuSW3w/oPGsxcV2JIWW/LQr00Z6QCefYw/pU6FVu3ldyUWXGqtQOh4W0rqIMnL3/j3NpCTEvfkJzcvyCWkA1SCL3jmEQqSCLlg9eozyIW/gBdOzUBGKmOLR5++wbZ+AtMgnfFG4xV/SnAG0d58/sF3kCVodspSGVtSi7PPUWi/uQZSIOTJPTBcZ+yU2uUCF5nrQhq4Y+pi4ko8SupGTgANYLBD77KyfX2ieJJ0tBxb/OwuqH/YS5KGlvN96ofULu82g/Xw5td3gTbThgknimWlfVA/PZrLR1f6fRwH9UOKCEZXwexi5VB3+w2dSorYQgUKCweHGkiieJV2AQrtbnhpoSIvFVB5KerAyM4V/UMdpoC6lXrp4zhIdeNx8nrzYxVGG/t99FjSkWIxHN9OcDFJOjdFH/+yeW1J11vgM71SB5iZ7qiqxk+aW/wCx6+paDBGs4v6ewNmxH/G8DIBvGnN8QAAAABJRU5ErkJggg=="
+          srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ7SURBVHgBtZdNaxNBGIDf2Z2Y0EYIudReND17CTR4EgyIFVFo0vaiPTQBezbFiwehm1+g+QWJp9pbDt5MyXoTLCR+nATJKvZS0ARq0DY7eZ1JumG75GNns3lgB2Zml+f9YAeGACdeTEXonPIEkeQIQIQv6SaybP1h2YAZQcSQ2FurASFx5yYClBiy/CwCUG4Un6aGSc+jylCiNhL7a7vgM0r4pxYPNtPj30KiLb9ebyzvr2+BX2IxBH+nYJKcZx8jCCURQHwvFQM/xG7lVgCi/DyA4jQBKPaJW/l5AKL/Na/9V5wLMnIQv57H/ivDFiXlg/7z7Gtuy6+M2pCV90ASXw0dNcyKWsQqxMCL2Iv8fvAHPL9c4wcPyZiM1joHdNeTWEZuSW3w/oPGsxcV2JIWW/LQr00Z6QCefYw/pU6FVu3ldyUWXGqtQOh4W0rqIMnL3/j3NpCTEvfkJzcvyCWkA1SCL3jmEQqSCLlg9eozyIW/gBdOzUBGKmOLR5++wbZ+AtMgnfFG4xV/SnAG0d58/sF3kCVodspSGVtSi7PPUWi/uQZSIOTJPTBcZ+yU2uUCF5nrQhq4Y+pi4ko8SupGTgANYLBD77KyfX2ieJJ0tBxb/OwuqH/YS5KGlvN96ofULu82g/Xw5td3gTbThgknimWlfVA/PZrLR1f6fRwH9UOKCEZXwexi5VB3+w2dSorYQgUKCweHGkiieJV2AQrtbnhpoSIvFVB5KerAyM4V/UMdpoC6lXrp4zhIdeNx8nrzYxVGG/t99FjSkWIxHN9OcDFJOjdFH/+yeW1J11vgM71SB5iZ7qiqxk+aW/wCx6+paDBGs4v6ewNmxH/G8DIBvGnN8QAAAABJRU5ErkJggg== 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAABACAYAAACkwA+xAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATGSURBVHgB1ZtPbNtUHMd/z05a6B+WFWlVEUOpRCWOGdMkDkhbq/aAEKJlTGjiQHbgwAWaIydSTZM4tgdOSDRF2sYkpmU3/qyLkQAhVrSe4MAhGULAJrZ1S5etqe2393PzsvRP/Pe9F+cjRYntOMpHX3/9HMcmsIPM4nQq0ad9BJQco2ySAKTY8xpbVCTUWlo5WTSgSyGtE5mzJzK6bl9iM9PtVmDiBYtac6snixXoMpqyDdESJulnxW6U1viLRqK+RBH23qxO9NLhC8ffgy7BSfbl829lNUIWISQs5Qr7pPxv71xcghjjJNtbnYqUDnacUCgc/ur4Yub8dBpiipPs+Jn1u/WhYmpj/yUQA503qb0Qtz47yWJXe+9MQ+/dGRADmY1jn51kJ86sUz5jY6gI4hLe6jPRyezKia8vQ4fZJYuIFkbiMFTtKYvIEN6ic33W2i0Q2+FWOtfntsly5CXc6DO1Tqk63ta83iAv4a3xGTBlReOzZ7IcmQk/+TY0b9r2kqw+eybLwYSfuvU+SIWSvMw++06WUx/8ER4d+BxkI6PPvpPl9FRflZ8wyOlzYFlElTCCPyUP6hvlG98/8wkttT+p4IdQsogq4RGtBp/t+wmeI7W8Zekl84oeus+hZRHZwlx0RK850xRImj0KTLhc/y6ZgYBEkkVkCY/p97aJtoLSRKPXmfRikE07siwiWthNtBUmnTWtRHlzOYF99jylJEQWESXMRQe1Tf8rUcA+X/fqszBZJKpwKNEGfvosVBZB4f6/TwOx+wKtF0W0Fbc+C5dF9I0XoO+fj30LixJtpdFnJp1sbtpSZBG/wjJEW2B/3dACF5Ymi3gJSxZtwoTncW8tVRZpJ6xKtEGqbiZmpcsiO4UVizpoBI4qkUW48OvJ2/DlfkOpaIOMMllk4sYf8OHF/4E+0qETKJM9+t+38MHvn4J182monhvrhPCqElkuyumEsE3hB+myO0U5KHz/i5fAvtcDsiFAKz2mWZAq206Ug6LVs2MqhPPkNahIk/US5cgVpmuUklxi0nL+JJci61eUI0eYFhOb1qGeqc15Pke4bFBRjkBhgx0fjicnrRncdFsXJEAgb5eX2KMAYeHCg+/+Cdq+OgSDrrEzkbN8k90LYclGFeUET5iusSTnElVr1E0UESIrSpTjX3irl8kpM09mnKvwXIksK1qU4yHctpduRJKVJcrZLYy9pNnkpDnO0jQgIKFlZYtyUHT93Iu+e+lGqL2xKtEGhfu3h3LPTpmenfQisKw6UWpYBOZGrqwYIIhAsipEKcXrIEluePlaEQTju7PSRSk7jiV0rmb3Hxpe/lW4KOIrWQWJFh7YA7nRq0bkXrrhKStXVHwv3XCVlSWKvbQ1ekqVJKdtZ6WItvRStSiyZ7IyRG2AhYf2QF52L93YJSteVG0v3dgmK1K0U710g8tWmGhaiCj2UoOF4eWVPMQM58Tt6YN902/8dSENEcFe1uyBmeev/vwNxBDncr5bE0ey7FXoW12wl2CR3AHj2irEmOYdWzcnjpQJCXYFWRx76UZzB2Xb+rimWSVfwjHupRvbbjz899graS9hZ7y0+vOjRufGy7CQvWZihwmhb7LNNM1+bqUaSV62zURhxPilAl3KY202y0w46bkmAAAAAElFTkSuQmCC 2x"
+          alt="Google Play"
+        />
 
-    <h2>Google Play</h2>
-</a>
-<div class="woman">
-            <img 
-                src="/stp-8612/assets/woman-1x-85d6e86a.png" srcset="/stp-8612/assets/woman-1x-85d6e86a.png 1x, /stp-8612/assets/woman-2x-2c09df5c.png 2x" 
-    alt="Woman" alt="">
-          </div>
-            <div class="dog">
-            <img 
-                src="/stp-8612/assets/dog-1x-8ea6432d.png"  srcset="/stp-8612/assets/dog-1x-8ea6432d.png 1x, /stp-8612/assets/dog-2x-151fa284.png 2x"
-    alt="Dog">
-          </div>   
-        </div>
-        </div>
-
+        <h2>Google Play</h2>
+      </a>
+      <div class="woman">
+        <img
+          src="/stp-8612/assets/woman-1x-85d6e86a.png"
+          srcset="/stp-8612/assets/woman-1x-85d6e86a.png 1x, /stp-8612/assets/woman-2x-2c09df5c.png 2x"
+          alt="Woman"
+        />
+      </div>
+      <div class="dog">
+        <img
+          src="/stp-8612/assets/dog-1x-8ea6432d.png"
+          srcset="/stp-8612/assets/dog-1x-8ea6432d.png 1x, /stp-8612/assets/dog-2x-151fa284.png 2x"
+          alt="Dog"
+        />
+      </div>
+    </div>
+  </div>
 </section>
 
-
-
- 
-          
       <section id="game-overview" class="section over-section">
   <div class="container">
     <div class="game-container">
-  <h2 class="title">Game Overview</h2>
-  <p>Step into Dream Match, where thrilling match-3 gameplay meets a magical world waiting to be restored!</p>
-  <div class="play-images-1">
-
-      <div><img src="/stp-8612/assets/coins-1x-b3fb0ac5.png" srcset="/stp-8612/assets/coins-1x-b3fb0ac5.png 1x, /stp-8612/assets/coins-2x-4b2c2dfe.png 2x"  class="play-image" alt="img1"></div>
-      <div><img src="/stp-8612/assets/cups-1x-16f19d2e.png" srcset="/stp-8612/assets/cups-1x-16f19d2e.png 1x, /stp-8612/assets/cups-2x-43b588b6.png 2x" class="play-image" alt="img1"></div>
-  </div>
-  <div class="play-images-1-add">
-      <div><img src="/stp-8612/assets/matches-1x-3e7279b6.png" srcset="/stp-8612/assets/matches-1x-3e7279b6.png 1x, /stp-8612/assets/matches-2x-87b8ba0b.png 2x" class="play-image-unique play-image" alt="img1"></div>
-</div>
-      <div class="swap-blast">
-        <p><b>Swap & Blast -</b>
-        Solve puzzles and clear obstacles</p>
+      <h2 class="title">Game Overview</h2>
+      <p>
+        Step into Dream Match, where thrilling match-3 gameplay meets a magical
+        world waiting to be restored!
+      </p>
+      <div class="play-images-1">
+        <div>
+          <img
+            src="/stp-8612/assets/coins-1x-b3fb0ac5.png"
+            srcset="/stp-8612/assets/coins-1x-b3fb0ac5.png 1x, /stp-8612/assets/coins-2x-4b2c2dfe.png 2x"
+            class="play-image"
+            alt="img1"
+          />
+        </div>
+        <div>
+          <img
+            src="/stp-8612/assets/cups-1x-16f19d2e.png"
+            srcset="/stp-8612/assets/cups-1x-16f19d2e.png 1x, /stp-8612/assets/cups-2x-43b588b6.png 2x"
+            class="play-image"
+            alt="img1"
+          />
+        </div>
       </div>
-       <div class="play-images-2">
-      <div><img src="/stp-8612/assets/lock-1x-484b49d1.png" srcset="/stp-8612/assets/lock-1x-484b49d1.png 1x, /stp-8612/assets/lock-2x-7efe5701.png 2x" class="play-image-2" alt="img1"></div>
-      <div><img src="/stp-8612/assets/girl-key-1x-bfafadae.png" srcset="/stp-8612/assets/girl-key-1x-bfafadae.png 1x, /stp-8612/assets/girl-key-2x-877ea82c.png 2x" class="play-image-2" alt="img1"></div>
-  </div>
-  <div class="play-images-2-add">
-      <div><img src="/stp-8612/assets/upgrade-1x-4cd13f4c.png"  srcset="/stp-8612/assets/upgrade-1x-4cd13f4c.png 1x, /stp-8612/assets/upgrade-2x-21dd6924.png 2x" class="play-image-2 play-image-2-unique" alt="img1"></div>
-</div>
-<div class="power-ups">
-  <p><b>Uncover the Story -</b>
-        Help whimsical characters revive forgotten places</p>
-</div>
-<div class="play-images-3">
-      <div><img src="/stp-8612/assets/grass-1x-0ecbd3a2.png"  srcset="/stp-8612/assets/grass-1x-0ecbd3a2.png 1x, /stp-8612/assets/grass-2x-c70c0366.png 2x" class="play-image-3" alt="img1"></div>
-      <div><img src="/stp-8612/assets/hammer-1x-8e8f1633.png" srcset="/stp-8612/assets/hammer-1x-8e8f1633.png 1x, /stp-8612/assets/hammer-2x-fcbe7d6c.png 2x" class="play-image-3" alt="img1"></div>
-      <div><img src="/stp-8612/assets/rubik-1x-f462f662.png" srcset="/stp-8612/assets/rubik-1x-f462f662.png 1x, /stp-8612/assets/rubik-2x-2b0a7ce1.png 2x" class="play-image-3" alt="img1"></div>
-     </div>
-      <div class="play-images-3-add"><img src="/stp-8612/assets/cannon-1x-cf71b370.png" srcset="/stp-8612/assets/cannon-1x-cf71b370.png 1x, /stp-8612/assets/cannon-2x-f93ae462.png 2x" class="play-image-3" class="play-image-3 " alt="img1"></div>
-     <div class="boosters">
-      <p><b>Unlock Power-ups – </b>
-        Use boosters and magic tiles to win big!</p>
-</div>
-<div class="play-images-4">
-      <div class="play-images-4-add"><img src="/stp-8612/assets/chests-lava-1x-c83e9060.png" srcset="/stp-8612/assets/chests-lava-1x-c83e9060.png 1x, /stp-8612/assets/chests-lava-2x-4d8f49ad.png 2x"  class="play-image-4" alt="img1"></div>
-      <div class="play-images-4-add"><img src="/stp-8612/assets/level-1x-970bfa13.png" srcset="/stp-8612/assets/level-1x-970bfa13.png 1x, /stp-8612/assets/level-2x-5b256b1c.png 2x" class="play-image-4" alt="img1"></div>
-      <div class="play-images-4-add"><img src="/stp-8612/assets/dragon-1x-b29e755a.png" srcset="/stp-8612/assets/dragon-1x-b29e755a.png 1x, /stp-8612/assets/dragon-2x-c0353f02.png 2x" class="play-image-4" alt="img1"></div>
-</div>
-  <div class="global-complete">
-    <p><b>Compete Globally –</b>
-         Climb the leaderboards and win rewards!</p>
-  </div>
-  <div class="ready">
-    <p>Are you ready to bring the magic back?</p>
-  </div>
-     </div>
+      <div class="play-images-1-add">
+        <div>
+          <img
+            src="/stp-8612/assets/matches-1x-3e7279b6.png"
+            srcset="/stp-8612/assets/matches-1x-3e7279b6.png 1x, /stp-8612/assets/matches-2x-87b8ba0b.png 2x"
+            class="play-image-unique play-image"
+            alt="img1"
+          />
+        </div>
+      </div>
+      <div class="swap-blast">
+        <p><b>Swap & Blast -</b> Solve puzzles and clear obstacles</p>
+      </div>
+      <div class="play-images-2">
+        <div>
+          <img
+            src="/stp-8612/assets/lock-1x-484b49d1.png"
+            srcset="/stp-8612/assets/lock-1x-484b49d1.png 1x, /stp-8612/assets/lock-2x-7efe5701.png 2x"
+            class="play-image-2"
+            alt="img1"
+          />
+        </div>
+        <div>
+          <img
+            src="/stp-8612/assets/girl-key-1x-bfafadae.png"
+            srcset="/stp-8612/assets/girl-key-1x-bfafadae.png 1x, /stp-8612/assets/girl-key-2x-877ea82c.png 2x"
+            class="play-image-2"
+            alt="img1"
+          />
+        </div>
+      </div>
+      <div class="play-images-2-add">
+        <div>
+          <img
+            src="/stp-8612/assets/upgrade-1x-4cd13f4c.png"
+            srcset="/stp-8612/assets/upgrade-1x-4cd13f4c.png 1x, /stp-8612/assets/upgrade-2x-21dd6924.png 2x"
+            class="play-image-2 play-image-2-unique"
+            alt="img1"
+          />
+        </div>
+      </div>
+      <div class="power-ups">
+        <p>
+          <b>Uncover the Story -</b> Help whimsical characters revive forgotten
+          places
+        </p>
+      </div>
+      <div class="play-images-3">
+        <div>
+          <img
+            src="/stp-8612/assets/grass-1x-0ecbd3a2.png"
+            srcset="/stp-8612/assets/grass-1x-0ecbd3a2.png 1x, /stp-8612/assets/grass-2x-c70c0366.png 2x"
+            class="play-image-3"
+            alt="img1"
+          />
+        </div>
+        <div>
+          <img
+            src="/stp-8612/assets/hammer-1x-8e8f1633.png"
+            srcset="/stp-8612/assets/hammer-1x-8e8f1633.png 1x, /stp-8612/assets/hammer-2x-fcbe7d6c.png 2x"
+            class="play-image-3"
+            alt="img1"
+          />
+        </div>
+        <div>
+          <img
+            src="/stp-8612/assets/rubik-1x-f462f662.png"
+            srcset="/stp-8612/assets/rubik-1x-f462f662.png 1x, /stp-8612/assets/rubik-2x-2b0a7ce1.png 2x"
+            class="play-image-3"
+            alt="img1"
+          />
+        </div>
+      </div>
+      <div class="play-images-3-add">
+        <img
+          src="/stp-8612/assets/cannon-1x-cf71b370.png"
+          srcset="/stp-8612/assets/cannon-1x-cf71b370.png 1x, /stp-8612/assets/cannon-2x-f93ae462.png 2x"
+          class="play-image-3"
+          alt="img1"
+        />
+      </div>
+      <div class="boosters">
+        <p>
+          <b>Unlock Power-ups – </b> Use boosters and magic tiles to win big!
+        </p>
+      </div>
+      <div class="play-images-4">
+        <div class="play-images-4-add">
+          <img
+            src="/stp-8612/assets/chests-lava-1x-c83e9060.png"
+            srcset="/stp-8612/assets/chests-lava-1x-c83e9060.png 1x, /stp-8612/assets/chests-lava-2x-4d8f49ad.png 2x"
+            class="play-image-4"
+            alt="img1"
+          />
+        </div>
+        <div class="play-images-4-add">
+          <img
+            src="/stp-8612/assets/level-1x-970bfa13.png"
+            srcset="/stp-8612/assets/level-1x-970bfa13.png 1x, /stp-8612/assets/level-2x-5b256b1c.png 2x"
+            class="play-image-4"
+            alt="img1"
+          />
+        </div>
+        <div class="play-images-4-add">
+          <img
+            src="/stp-8612/assets/dragon-1x-b29e755a.png"
+            srcset="/stp-8612/assets/dragon-1x-b29e755a.png 1x, /stp-8612/assets/dragon-2x-c0353f02.png 2x"
+            class="play-image-4"
+            alt="img1"
+          />
+        </div>
+      </div>
+      <div class="global-complete">
+        <p><b>Compete Globally –</b> Climb the leaderboards and win rewards!</p>
+      </div>
+      <div class="ready">
+        <p>Are you ready to bring the magic back?</p>
+      </div>
     </div>
-
   </div>
 </section>
 
@@ -230,8 +328,8 @@
               srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAVlSURBVHgBvVZNb1tFFL13nmOnLKhZ0agSNaBKgISwu0BlRYxU2oouEkEKFUhtfkGcX5Bkw9bthm3TFahFSiukJqVQO6pQK4oUFwmpEkJ52QAbhPmo69ieuZw78+zYjUuTIjHW07znN3PPPed+zCPa5Vi5OzazfHff+vLavhz9h8G7WQzAOWaa03sR2iBHxeOFX2Ma6uCzM0RmXkiyeIyNMYtHX/15YdfAK9+PlTGVBIh9I6Y0wF8eBIcaZ8jQ+eRR4CxZv41n33ntl3N6Z2gHA96XgdcPKuozDB6gFle2yc50Gu+SxcwW0II/245L3SWPBYbRcWwqYSu285Zpb1f/kAOwcmMAnDkHH1lXOH8xdbC7Ldxbk3occJOatVEZjWEkRwkJZaPk+xR4HuDKvBgeJacMFRTuAhRSk3puVvs839lQ5jB+Brenh7yWwN5bFAeKnilALWl8DXWIfidOHTpViOOwbJfj6t0xjVPZ53XYLwkygPSZdfbyIrY61yFzVWy08OHrcY0exfjCd8/NZCLJZShamCzE9WHgX9TGZAsyoYmfMtQXNjghTsyVjImmh9kZiPEnd14ot8SVxDrpRE69u/DwhqW1/fmORhdUklj7jPUxTYAhs2gmo4SqHzzC+V5Wf3z7YLlheabhDD2QiJo2NT5sw6aYpU1ruIV13bmFGG76maXpmB44w7jovjPz5W8P5ofZ8VKXbr4yt4fd/KhxMsKO0+AwYqTubLow+8a9WNecX8tlnXPlSOgMB2U5kVhJa+lISCRft1o+hPKhFvF6S1JvzSd2esAfVfLjGbY3AMyjRihtHKWRkyMwlSIXM5mFSGx2JCUzEUrK9EDFl5XzzYG2EopC+XTEK+DBm9bE1maKZ4u1eIDx+18fWsoYOzEKwAwuBQdzSbE6ovEQjgBkEo7G7xJfQqKDNb5GY+qZ+gsLNAxtirjpCCGINlq0p/hZ8XbcA56o5LNiuZJhysMBCeAABaCCRzCv4MoWfuicNI9AP8lk1C9khi8K3MJ9W/NAGZORTR/3VNy6/1ShOlmt98rp2PLhHEW2AplzQW5R1kFyAANcmXtPTdIthAPvkMlgiXTuUJAXszJmTTwknGjCNSSSB9as/nDim+JAHY8D3LJ0wSUNgJQHVzBHkdLmUD/dMvbA+FNj3fZlxquWTB1gEx7UA4erIUaBNzLChW0NJA9wFlMZUXDPOlwqdxROuBAfPFM3sZLkQiJOX337zqK+Pgw7AFvXMlOpkWDccBF12BbuT1ZrQ1vmS8vjuVbbriHOewHOkSYa7GqCsbIW2WrMCTC6yeytY7fO9tvZf+VNlJI5oKDKHgk425665tcMPZ3uNbP1p+WvOiTPJjEGaJDa2O5p4CmGlGZa/PHEzbMP2/mtnY4R65zzrdXNuwR0G3B2aSL7Z6cxQ7ZR+luiLKRDkWgWi1+oc9SVOhxIKjgc4wvDCLSILmv0sHDBTX014FhP6pGLR/IohRvAeUaSk6fbjHuqSu9P6v8AMmSKnamVKu1i9ICjz4+uw1rO+VbPXr8B872ORd3QIr80ubzkMSJ/zhDXdupAMPTpsZxJufVHr+JFOFQzwnPYkeXQsfTNNmXwrmqnrhXpMSPEeLRZJ5sWz8CXSU8Jvd9AUkx7VS4eWUU4KgDZSwmib5l9BzMecrSDEY5FtDBsXx2MXGDjrOl53z55veaczFJQqvsdyV1HNTwR07kd4G6dx5JqT6qkMPIH9tdBZhXyFunUSjyw4+T1RTSY6a4cfQNqUandVzL/Nnb9zdXz+NJRfHtJWfx3JNw0Mm3fvb640/0RPeGQSz/d5pMvKmQB5XTcvvflZfpfB5oOPcH4B79b+ToJPXyeAAAAAElFTkSuQmCC 1x, data:image/png;base64,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 2x"
               alt="Puzzle icon illustrating game mechanics"
               class="small-icon"
-              width="28.61"
-              height="29.18"
+              width="29"
+              height="29"
               loading="lazy"
               aria-hidden="true"
             />
@@ -246,7 +344,7 @@
               alt="Easter egg icon representing hidden surprises in the game"
               class="small-icon"
               width="20"
-              height="26.25"
+              height="26"
               loading="lazy"
               aria-hidden="true"
             />
@@ -342,7 +440,7 @@
       </h3>
       <ul class="list">
         <li class="item">
-      <div class="small-icon-box">
+          <div class="small-icon-box">
             <img
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAYCAYAAAD+vg1LAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOzSURBVHgBhVU9b9RAEJ3Z3bMdCnBAoqBKClp04QdAJBo6hCgpEBVCVAcFEiABFR1HQ0EV0gAlH38AISFRkVCEBiFOCMoopgmJ7d1hZtb2fSFwst71ePbNmzezPoS/XPS8vwTV/hoQ9ilAjmBeArgB7PFL59cgmD4EyoHYjtkAr34YzWLgHOgag1K9AaQbAYIYUUZBXrfkEBCQbUQ6F0BuBQfT4GaObuWHUJk8lHYdrF0Eb5eh4nVlc6wdD7uONbE9WabKrENpc6ho7f+MH/dJGIGjZby6OVLbsM8skx1l78xyy46GqznsljuSDd55v/hvxqUrmB3AXl500QebBZXsWjuYSvkX5MS+JKxnrnng2m6KM+yXQ3qwutSBi60cu9M9ZlvCXZYCWJ5XszB4Y/XTJR/8I+/rPIQAi9k23To9xAXDLUD8L4Xi+NwdWjAtZFtQfrdbZfDg4zXaKQ+jNRaMNSNr3D28eWbrGwMvBSIKocYQCA5n23D++Gs4cWRrBlA6QZ4NS5vBz9/H4NnXCwx6BNBweEQ0Am5MgbfPfmFMj8I2CDpT5MFtCroWJCH+8Mo5LfT1J9y68mdQa89YDGh4NgzIawYWm0uSREEZhYE9xlkCMByEFpdJkrZQmmSgOcRLnFAAFViGtSIducSlFJQhMw0KiwIVgCJbijM2dUvTTGsjrCGCQzsMWIrkLbrU9lCgBJwUkEVlMFKqCtz0j1KHhBnzXj10GEUhEdfELDQAw4M7WFMREA/VbOCZgxj+FECUpuGmD+wtUiz0UnnStYllRUnRBEABtPKSYOQW6jBgZe6ybcmDCCEDRQplKBkTRGKyPlhFUEnPCKjOoqoEkvhQePD33cU3R5+y29PBqY+Ko/HkrqWi5sjz9h8HdP15+3v8EFATlLpHtTx6d1KPtmtPinWuAWs4ArZ7I/PMRz/bI5Vz/jODTY4wBdxzvWgmZTzmFPcjZkENjv2gBei8BLPbMw2sTCAiQyfDhG/qVVznbCOx0J707UJNAzvnxrlRe8MotuSYBZXI2YT0bEtf0YRkM8pMMHZN6VtsZaH+0kHCWP2YMXepxhJ/GrOd2j+pcUHycwTQ9m7ciLGYmPkJjbu8x0iNPvNSWLvJwU+3qceT1WyUGxdPdvWsa5Rqe6bhocLRy3kp0F62wW/w0TukLInakxGPitNzCIlvjlqsmx792M9YBGcHLV73kzB4sTjqVXalR/Qq9aSSykj4+5n5ccaiiDQI2zGtibimBSfzNnFmRTBavz8mef1LCAnU7QAAAABJRU5ErkJggg=="
               srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAYCAYAAAD+vg1LAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOzSURBVHgBhVU9b9RAEJ3Z3bMdCnBAoqBKClp04QdAJBo6hCgpEBVCVAcFEiABFR1HQ0EV0gAlH38AISFRkVCEBiFOCMoopgmJ7d1hZtb2fSFwst71ePbNmzezPoS/XPS8vwTV/hoQ9ilAjmBeArgB7PFL59cgmD4EyoHYjtkAr34YzWLgHOgag1K9AaQbAYIYUUZBXrfkEBCQbUQ6F0BuBQfT4GaObuWHUJk8lHYdrF0Eb5eh4nVlc6wdD7uONbE9WabKrENpc6ho7f+MH/dJGIGjZby6OVLbsM8skx1l78xyy46GqznsljuSDd55v/hvxqUrmB3AXl500QebBZXsWjuYSvkX5MS+JKxnrnng2m6KM+yXQ3qwutSBi60cu9M9ZlvCXZYCWJ5XszB4Y/XTJR/8I+/rPIQAi9k23To9xAXDLUD8L4Xi+NwdWjAtZFtQfrdbZfDg4zXaKQ+jNRaMNSNr3D28eWbrGwMvBSIKocYQCA5n23D++Gs4cWRrBlA6QZ4NS5vBz9/H4NnXCwx6BNBweEQ0Am5MgbfPfmFMj8I2CDpT5MFtCroWJCH+8Mo5LfT1J9y68mdQa89YDGh4NgzIawYWm0uSREEZhYE9xlkCMByEFpdJkrZQmmSgOcRLnFAAFViGtSIducSlFJQhMw0KiwIVgCJbijM2dUvTTGsjrCGCQzsMWIrkLbrU9lCgBJwUkEVlMFKqCtz0j1KHhBnzXj10GEUhEdfELDQAw4M7WFMREA/VbOCZgxj+FECUpuGmD+wtUiz0UnnStYllRUnRBEABtPKSYOQW6jBgZe6ybcmDCCEDRQplKBkTRGKyPlhFUEnPCKjOoqoEkvhQePD33cU3R5+y29PBqY+Ko/HkrqWi5sjz9h8HdP15+3v8EFATlLpHtTx6d1KPtmtPinWuAWs4ArZ7I/PMRz/bI5Vz/jODTY4wBdxzvWgmZTzmFPcjZkENjv2gBei8BLPbMw2sTCAiQyfDhG/qVVznbCOx0J707UJNAzvnxrlRe8MotuSYBZXI2YT0bEtf0YRkM8pMMHZN6VtsZaH+0kHCWP2YMXepxhJ/GrOd2j+pcUHycwTQ9m7ciLGYmPkJjbu8x0iNPvNSWLvJwU+3qceT1WyUGxdPdvWsa5Rqe6bhocLRy3kp0F62wW/w0TukLInakxGPitNzCIlvjlqsmx792M9YBGcHLV73kzB4sTjqVXalR/Qq9aSSykj4+5n5ccaiiDQI2zGtibimBSfzNnFmRTBavz8mef1LCAnU7QAAAABJRU5ErkJggg== 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAwCAYAAABqkJjhAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAqBSURBVHgBpVlNaGVJFT6n6uanbdQOMgtRMYMbFaVfdNMKahoRBzfdzazc2YKiLtpkoYw40B1cuui0mxZcZCHCgKLJ1oUGQcTFmDizUGSEN9BMrxwjg2KS9+rM+a26r5O894a+Mze37q2/r77znVOnXiO8w4t+/tF1QLoBgDeBcBVIPuIhP/le3MLbh8OJ9j8brAOMb3CbmwS0ioT8NdrjFn57sv2sC+dtSL8ZXIG3ju8SwYZ25Im5zAPwsxAgpnjfhpS3tNOo3AVpTz5NicG8L/fhaxuOyxZuHh7Ng2MuwLTDYPHk99x8YIz6pAqciwGI0AdkBou2G5B/18ayHH/Guy1C2o+uzwM6wVzX6V0oaQBjnmDMTPLN76Dv/MTCQOSp9byQEQ5ozIvTOru13O8n44x46KJ9BgALd+dBMhMwPRys8uAb5ODAwA3Z3NdxIa/gN19Brr/Fkw6lXhZTQTow7jPEUboO4/EK3nkZmdVb3HaIJXNdtjYjnuPH19Zn4ZkpCfrpJ3cI8WtYzQpDWMY1dq4J89F9lk1OB6zNVRVGk8kQ4PIabu6fbT9eOuBFrXo7Gf8B/uBPG9PwzGaYpSBMVIYJN58EK5fqb5xum8l77I65/RNga/tTvE1sMRtbx78xC083qwFPOtAJZG3i2XcOdi9uPDrE8WJzKGn//T9f3P54+RAXTq29Od8qzLhmMixapMpaMlNe1NZYVkuw41mfaWPf2z+KdhSaf1rAvPIhamRwSYyWB1PbkzuePMt0APTi5242+SjwQ3hawGWc9mAcXi/swQ7dW7+QZWALo+sXpzCsY2C+b2EtQh8+PeB0mnd10FF1jlVYPDmgHzE75yLpx1o8Fyi9uL4OJ6ARImI0jCXEwdYsPDrixvoBx1raISqDQuUKcWziMpRie+nzn9iFL37kj+ocsqvFbqXbaw1fPpzvgvVbb5cDHRcBa7vW53ePrsEvX/sKYUL5n7dtuRMJpznhHv/Z3N5fG+ILz/1t9eT45IAFd6UUAyqAuSyXjrrc/Q+/e+0hfOjdj+sk/TzCSj0QnivEdxkHJ4DbgmzBAI/++37YfvXr9P/xu8CwcmvOM6ycdIkp4dECLH0qf+bD39pJkK6ijm6r8tVBkq78Z0yL9Jc31rDDU3j2PY/qdqy5A6FHEmyO5uVoE+8mF/S21m//8WfhF/98nvOfS5gYFd8ytz5TymBP/pLyJUplgC986e/M5RhVBvIfTd5mRqCoe9/ym/Dl1d/iBy6/AR+8/PgJKbQyRSLUk5ElSwhvHq/Aq0cfg1f+/XF47a1nzfzSGpVJV6sRl0UfYBLh4hH+8Ll/UANYDBxTYCALmixkx+M6mdagoz3droDalj/T/e/cwuoc4h8Pf12dRYVhJnfoilJByijJ0k3Xb7vBrC5v1DHVAhgdKPjEggNF8CVYxiwFDF0bXhOj9reAY1h6V5e7BtQk640841CQ5HK0RrqIaFMlqv2wyzmjM4ykQBP0QfEbFkMdbHu5JrXmVIgqKQ8hZn6+c16gCsj4M+EkUItA1KAzrKZIpFJGc96kDmighWHXqRuYvb4o2IIhyJQcrK2hcuhhBL3CpOG40EHnLqNrm9BUgGEGDQcyYKpfXM/qd8E0Wl9UVroudRJxEYJlXTSYR/MnrXOtFj3WBDiqUq06p/MlUWl33sPsiE3uqmM/NtlXW3nSWCwWMYq7lOVT0oWGownF5KfFpM5mCskWR0wU5v4VmEcAsj8QfLEkugrKWa21ClQYMHsInRExXPPGqiB0DwVnOJxHmOZKkUAAS8kOmSA7p7ULkqntEK5mCDnWZQjgBhGVCIRUT38tWJiIknuXWyD0rbzLW7dYJJajx3dxMVNaxGVXvUJMzq1OE5onc6jKNjbTN0lAj2BslW72ynpVsuXf7kQaf6RXYuK6pUL/4SmviC2Lx3d7yiLkmzFQ6j7QBGyUtU/UjsU9hrNMrpJDiystqEX4MFC6kGRe7ZHaLCsGTyYc7JbGcMgt1skisCX/NqnvoBjBynTukwZJVI2KFjIS9J0SFjE7aboW1WZITMqJqveiW1FtkNwZFDwVkwTAbreE+XYpowOufu8YDZKxy1u9ZTh+ejHu2u7r2g019C3QCxXLY6pmFsISQk/wYDOR57kETQZEGvM0OJjrHHEI3kxf3V0ZptStdUR7y0UmsEmW+L7E7/rke1lvritS5+2kfiT1/j6KGUmZludy1MW4I/vW73OpV6+3tJF5bP4j9rN9BrsmWNUjpMCPW1Le+PzL5K7skQOibDsWuenb9tGLvFz3+mVsggD4679eD0FUq7RtJczlAb7+nKTDaojc/sOnV6B3nTk1SzpX4UTSiz6CxLvwmBrOOIqHq0nE6MoEKMlVYlHoAqd2BLCQkdCaYEiHLEC3FU4BrPu5k0ZQMxzNppLRRC3xquANEbtQN3EEEQKaLWSsZN6JRrl9szJGGes2fwbveQznYMiPCeFM+nulok89IrAdNiwcdZO0JA5rkgV6TKspQwVfnGqs/tb7i/MBjkgjwZsqMbbkhL2Nqy7EMkXd2nOJVCByA8K2H7fsTNvzeHlyK6fY9xHwLNxzAKMKMpl1sHHqom5GIicpAnAkMx215EY17Nuog4XQrzNq6R/5d19bKAznYdhyUgEZ+0CY2IK+nzBi+7dc2ADaiFTJjPEs+Na+UIE5R1VaUH1SF4B4VhMXadhHtpOYY4twFdrTiNHocYZqlKjj+UJ1kJZHQF82hlvnOgfkVMDZUrnYd7HlKejScnNlCF5jOj8SUE0YLLIYvR6lJsBg72eKqtqgaiJuTwGMOTJU9PQslBBpoWUsHqOrg0SgD0lE8pbkLOjRxk9xEXDUNTA2jtRfCPp+lWbH4cwTFJWPuwjoGU9/J9CnJ2ji/cUysEgvbQKJEr10U39naBumHBnbYuPy00aq/muBJ83jdHIUyZ4O6jt6pqOMRFy25DqTHzSA2m8LnaVI6KBt52xhNmkWWKNBy4oQm5x9Opw3DgeMSkPI2KNQnEbc+2tD5a0j6E+qlvH3CGzZtVajJUILaX48S/2ZZzA85FFXIX40Ub1hdegUjNcDAQYYM3RXApeliSnVg79tRDSRo7h5wqF544lQqlI/nM0w5D3uf0fNgy0pt3TKc9vY2zSHQMfnm0qPYeuVVJvOl8daapGATNttp2/U8loPz+J7kuFMu2KybKLHbLGBsp6a+RTsh1vxX60D82Vrg6A/EEksFi1zOZtuNf+QMbQft9ZxzNGsHu2AL2PysdXmwrQ1E/D3Xnpmn3eFn0gOk4s4Pd8SHfj2Mn9TLLVOMTKxmvfIC/qd7VUCm/bTsjxLfeffhUj6ylgdxXzyDtubL2mePl0Sep3me7krX+DSACIm+jHcUlX/YbOXF7fTZ00X9MolpKFimPBSP3mbM2P/zAyHp6Oz7J7LsFybuytH3OE6m2ZbGOyUQWN2QUxYhFXCBY5PnbIkcuBv9ZfqPiOo9R23VcuEWmSsouyC9NM5ZLwxPbjMcwuG87Bd+O903mHz4c3HDxIu3GNHu8qruxoRzVpFbu/phLLpXHl87YqfqGwb9m51Ggto+q+ltMc62P3Gr57ZhynX29u4WxwPRKwYAAAAAElFTkSuQmCC 2x"
@@ -353,39 +451,39 @@
               loading="lazy"
               aria-hidden="true"
             />
-      </div>
+          </div>
           <p class="item-text">Hidden bonus levels for sharp-eyed players</p>
         </li>
         <li class="item">
-        <div class="small-icon-box">
+          <div class="small-icon-box">
             <img
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAYAAAAMq2gFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHtSURBVHgB7ZbNTsJAFIVPsf4sXECMxiW8gb6Bb6KsjImJsnahPIFtIrqEN1CfQB7BrSu70MT4EyoJCgVazy004bedFth5kgnTznS+3nvK3NGgKO8GWWgos7vD9ggPee0IlurzWtQEr4w0HJxw4VNepkeGK7xfVAGGghjFAWdcTgAMyuIcUzuEgbggAvY4cs7uHtRl9aOrRIL6PgjgAMk1MZ0+KMKHpDK4nhkANa/Er2gJt+xnMX+JfwX6d6c1zvC8to1sahlzl9sGfl5gd1rI6c43smxY2+q1echzgdYn2xf7XVqhI60Hg813wLEJ2wRWMkgspwb8vvmAIemDF67DUF8J/QDWc0CcdHYavZeV30nSJ90UYP2pF5mkMwwoPvjZqCFUetigPNyuA6sb4/6N+BApPWqCLDLqn8DFB4lcVZGgQIF/EkG3idhKIaaSQBKBkuofNBPIxuJlC8jEYmVmDIIyV7hgzcizWZivbBa+AteXYjpcymvHhIKVdvYqW+RWYEgkwY2xw0ntlJW24wP3EV9VAvIEWKMDU49bjO4BqqcgzT8B5Zmm6rQpynvdFIkPRQKMqImz/I9MvmYuU4qGiJJEVIXLr+ma5+8YUgcp+BAmldTJJ1rk2W83KUQ0PSIP96kULHeJaTJm36b+AEV9sy2Sk6iQAAAAAElFTkSuQmCC"
               srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAYAAAAMq2gFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHtSURBVHgB7ZbNTsJAFIVPsf4sXECMxiW8gb6Bb6KsjImJsnahPIFtIrqEN1CfQB7BrSu70MT4EyoJCgVazy004bedFth5kgnTznS+3nvK3NGgKO8GWWgos7vD9ggPee0IlurzWtQEr4w0HJxw4VNepkeGK7xfVAGGghjFAWdcTgAMyuIcUzuEgbggAvY4cs7uHtRl9aOrRIL6PgjgAMk1MZ0+KMKHpDK4nhkANa/Er2gJt+xnMX+JfwX6d6c1zvC8to1sahlzl9sGfl5gd1rI6c43smxY2+q1echzgdYn2xf7XVqhI60Hg813wLEJ2wRWMkgspwb8vvmAIemDF67DUF8J/QDWc0CcdHYavZeV30nSJ90UYP2pF5mkMwwoPvjZqCFUetigPNyuA6sb4/6N+BApPWqCLDLqn8DFB4lcVZGgQIF/EkG3idhKIaaSQBKBkuofNBPIxuJlC8jEYmVmDIIyV7hgzcizWZivbBa+AteXYjpcymvHhIKVdvYqW+RWYEgkwY2xw0ntlJW24wP3EV9VAvIEWKMDU49bjO4BqqcgzT8B5Zmm6rQpynvdFIkPRQKMqImz/I9MvmYuU4qGiJJEVIXLr+ma5+8YUgcp+BAmldTJJ1rk2W83KUQ0PSIP96kULHeJaTJm36b+AEV9sy2Sk6iQAAAAAElFTkSuQmCC 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAABACAYAAAC3F09FAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOSSURBVHgB7ZpbbtNAFIZ/O27VCgkaIRC8ILMD2EHYATugfUJIoLYrSL0CEjXcnlp20CV4B3QBCCJUxJ1EVOklbWPOGdtq0jrj24zjVPkkq+7YdfNlzu9MPGNAE94b2DCxCg+PRYOBXQywbjxDG5owoBhvC0voC4k1+nUp4pRtOubokFIq472jXvDwknbtmFO79J8bxlM4UIgSGSqpGl2pTrs1pKMd9NI2FJBLJiipelBSeXDpGit5Sy+zDJVUXZKLrOTKU2qZoKS2EJ+LrLTp+k3KUwMpSSwjbrW+RA3FkDpPsTIKc5GVxKUnlfHe0ucFsAG1uchKg6SaMqlIGZELkz4vPDxAuZCW3ojMBHKRlXZwK3eHG4VMgiFIWRnJkyFEjvEB+m61uuFeesRCZu8T6oOTqRUBv/benogGjM4LfDbnYM9TcS3cxtTgDYDj37T9of0zarBw36Iusgd94Ogn0O+S0C1gvopS0+/Q6/1FvdIfajyFbQ2fxAcPvgIn+8DiXYB6rFSc9vw3nX9GYUU1nvzzN+4hLr1JS3FJHf3wS0qGJTvI3cnvwqRK71IuYrDiTghLj2t08Q4wdx2FwG8i/9+RXMQQKxPCF+190V96Z0fA4bfxuZCRWCaES483FmIxVVJJcyEjtUyIyls5C/D1kuRCRmYZZjhP1+4BlYVUfy5K6fA7ldYhlJBLJoSl9j8mzxMNQXCwly0XMpTIhAznKWpolPZWmxalMiFReWJJLikdEiFaZJgwT8d/aTRrqi+pKLTJhKgKdxJMXCFmMmVlJlNWZjJlZSZTVmYyZcWkR+dtXAUsetZMTzTfY/rZqTZIptrCBn1nml4hriwL67wrMnOzhWVqXJmykqOvf3BQwUPuFW4YmTnrrNFczamYcKqjxNCL3vGoN0KJofbLkJRNUhu0+wTlwqXNoWi4UQels82d58ECBm/ik1Fdnu6rvpIvdEi0qIEmpJYBsRbARvE4FPAGlVQ37sTEKzSC0uM8raIYXJJYuZgLGanXzohe8vw5RC0Y/rT4uFzI0P50JgV+LlrpFwCFlGVs1uQJ1riAxzHpnnF5EWr1NXahgMnI5MiFjKLL7HwIoliEKaxnTAPbg4oYgsR+XmSlCBmXNufGpvqeuIg+GX8E7lQ31SzzTYIOGS6jJuWiobOkolAqM25oXhSqZFzanKWW/lzIyCuTaGheFOllKtih0XMNEN+9C8+FjP+ZFWG5kmOWYgAAAABJRU5ErkJggg== 2x"
               alt="Box icon illustrating secret character"
               class="small-icon"
-              width="25.13"
-              height="31.82"
+              width="25"
+              height="32"
               loading="lazy"
               aria-hidden="true"
             />
-        </div>
+          </div>
           <p class="item-text">
             Secret character dialogues that change based on your choices
           </p>
         </li>
         <li class="item">
-        <div class="small-icon-box">
+          <div class="small-icon-box">
             <img
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALsSURBVHgB7VfRShtBFD13drNalbpt0UKhmLxoAoWmYED60vgH+gWmXxD9AvUL2n5B9Q/6B+axmEItFGJ9aJZCC4JoQNrGJDu3d1aNRrMxu7EPhR4Ik529M/fce2fOzAL/MvRubsv/knuLAaAQE61KrsBAHoxCszKXR0zEJqAIS6al8RQs8lcRE7EIcGUuGURvCLgz4JHJfNwsxCKg1UXEfHIEevAESvlLiIHIBEz0pu4XbJqgkUmZyVngatZFREQmoK1WsaPDbwQNudOurjvLiIjoJdC00PHc+nnaBlngYtQsRCJgtp40yY5Ovxk0QRmce5GzYHfr5GreRb3uBs6Udn3NLll4CuYCmDptzSI8f0iMAidHqyJOU2L7SZHyZMXW5I2H4eEapUq1q76CsbyXK7KGERYXxK44ibaYRAtInPPB536sPTI/ohLNbK8HBITxkazsyCt4UFjpMgVrQKJfkVzU8BfB2kfz8DvqXz9KxH6NGS9Nf7t8Zn9r0lvyL4lbgnHKJ78Cx/r3sZRpCImJKQ9j44vOdHmng8Btk2jV9tE6/CEkWsGzunMXicnkjm2PLFLmvXdu17ENzQs11HgmC+QdBoB/fIDmwbe2c9t9COfRzKY9dn/+svPAZ9gkzcrsmiKKdcoZAo39KkjZkvLHoLGJ9URme62bLfWaqLE7u2yBXiEGgpoP3REZsFac9IfXYXZ000T+bq6Kq+rXPzzZaqleBjdLMQ2gD32M7UmgsZfLDiRQMpb3nmcRl4Dy0XNwP9DazyMuAdHJFxgUJIdYXAKSwoEzIGKQRxwCZxeLHgTIM3p+qunkhdsh2euSYocOq9vZrptUDi2fed1Jly/v7Y1TzVDFbjLeqg+bQErd3IRmQNP16DXwRjmjqW7CYvoUq3nJyOY1J8ShmQwvAav2IElESTPPJ9Ll5W63mrad6LydKRcUW6nLZWHN+bAx4SUAl8TxlJaIrEx5AxFwduCkzB1SvqCKbGED/xGCP5v8Hojshd7wAAAAAElFTkSuQmCC"
               srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALsSURBVHgB7VfRShtBFD13drNalbpt0UKhmLxoAoWmYED60vgH+gWmXxD9AvUL2n5B9Q/6B+axmEItFGJ9aJZCC4JoQNrGJDu3d1aNRrMxu7EPhR4Ik529M/fce2fOzAL/MvRubsv/knuLAaAQE61KrsBAHoxCszKXR0zEJqAIS6al8RQs8lcRE7EIcGUuGURvCLgz4JHJfNwsxCKg1UXEfHIEevAESvlLiIHIBEz0pu4XbJqgkUmZyVngatZFREQmoK1WsaPDbwQNudOurjvLiIjoJdC00PHc+nnaBlngYtQsRCJgtp40yY5Ovxk0QRmce5GzYHfr5GreRb3uBs6Udn3NLll4CuYCmDptzSI8f0iMAidHqyJOU2L7SZHyZMXW5I2H4eEapUq1q76CsbyXK7KGERYXxK44ibaYRAtInPPB536sPTI/ohLNbK8HBITxkazsyCt4UFjpMgVrQKJfkVzU8BfB2kfz8DvqXz9KxH6NGS9Nf7t8Zn9r0lvyL4lbgnHKJ78Cx/r3sZRpCImJKQ9j44vOdHmng8Btk2jV9tE6/CEkWsGzunMXicnkjm2PLFLmvXdu17ENzQs11HgmC+QdBoB/fIDmwbe2c9t9COfRzKY9dn/+svPAZ9gkzcrsmiKKdcoZAo39KkjZkvLHoLGJ9URme62bLfWaqLE7u2yBXiEGgpoP3REZsFac9IfXYXZ000T+bq6Kq+rXPzzZaqleBjdLMQ2gD32M7UmgsZfLDiRQMpb3nmcRl4Dy0XNwP9DazyMuAdHJFxgUJIdYXAKSwoEzIGKQRxwCZxeLHgTIM3p+qunkhdsh2euSYocOq9vZrptUDi2fed1Jly/v7Y1TzVDFbjLeqg+bQErd3IRmQNP16DXwRjmjqW7CYvoUq3nJyOY1J8ShmQwvAav2IElESTPPJ9Ll5W63mrad6LydKRcUW6nLZWHN+bAx4SUAl8TxlJaIrEx5AxFwduCkzB1SvqCKbGED/xGCP5v8Hojshd7wAAAAAElFTkSuQmCC 1x, data:image/png;base64,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 2x"
               alt="Star icon representing rare power-ups"
               class="small-icon"
               width="30"
-              height="28.64"
+              height="29"
               loading="lazy"
               aria-hidden="true"
             />
-        </div>
+          </div>
           <p class="item-text">
             Rare power-ups only available under special conditions
           </p>
@@ -393,8 +491,7 @@
       </ul>
     </div>
 
-    <h3 class="text subtitle">
-    Can you find them all?
+    <h3 class="text subtitle">Can you find them all?</h3>
   </div>
 </section>
 
